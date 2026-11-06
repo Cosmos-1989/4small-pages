@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="270" viewBox="0 0 520 270" fill="none">
+  <title>书页与折叠三角形</title>
+  <desc>展开的书页上方，一枚绿色折叠三角形沿蓝色曲线延伸；叶片、圆环和小色块点缀四周。三角地首页的装饰插画。</desc>
+  <path d="M38 235c42-7 66-44 113-49 55-6 86 23 139 5 52-18 86-44 145-29 27 7 43 23 52 47v40H38Z" fill="#F8F6EF"/>
+  <path d="M109 167c-33-34-8-75 56-94 78-24 177-15 220 15 41 29 18 71-45 97" stroke="#B9DCEE" stroke-width="3.5" stroke-linecap="round"/>
+
+  <path d="m89 210 8 24c51-4 104 8 155 22 54-18 106-26 161-22l5-24c-59-5-115 3-166 27-53-23-107-31-163-27Z" fill="#D6E3D9"/>
+  <path d="M97 199c53-12 104-5 155 20 48-24 99-34 152-22l9 30c-53-4-106 3-161 22-52-18-106-28-160-23Z" fill="#FFFDF7" stroke="#C8CBBF" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M252 219v30" stroke="#C8CBBF" stroke-width="1.5"/>
+  <path d="M115 209c39-5 75 0 111 15m-108-4c36-2 71 3 108 16m49-12c36-16 73-23 109-21m-109 32c36-15 72-20 109-18" stroke="#DDDCD0" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M252 248v8" stroke="#A9BBB0" stroke-width="1.5"/>
+  <path d="m331 207 17-3 1 26-9-4-7 7Z" fill="#DDA156"/>
+
+  <path d="m244 44 99 136-176 5Z" fill="#0E9F6E" stroke="#09815C" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="m244 44-13 120-64 21Z" fill="#13936F"/>
+  <path d="m244 44 99 136-112-16Z" fill="#48B79A"/>
+  <path d="m231 164 112 16-83 24-93-19Z" fill="#0B785B"/>
+  <path d="m244 44-13 120 112 16" stroke="#E3F4E9" stroke-opacity=".7" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M109 167c32 31 109 43 179 28 62-13 104-42 110-71" stroke="#88BFDB" stroke-width="3.5" stroke-linecap="round"/>
+
+  <g transform="translate(405 45)">
+    <circle r="24" fill="#E9F2F9"/>
+    <circle r="18" stroke="#0379C4" stroke-width="1.7"/>
+    <path d="M-17 0h34M0-18c-11 9-11 27 0 36M0-18c11 9 11 27 0 36M-14-10c8 4 20 4 28 0m-28 20c8-4 20-4 28 0" stroke="#0379C4" stroke-width="1.3" stroke-linecap="round"/>
+  </g>
+  <g transform="rotate(22 83 91)">
+    <path d="M83 107C61 98 65 75 91 63c9 25 5 39-8 44Z" fill="#E2F1E8" stroke="#599F78" stroke-width="1.7" stroke-linejoin="round"/>
+    <path d="m80 118 8-42m-5 25-9-12m11 3 10-9" stroke="#599F78" stroke-width="1.7" stroke-linecap="round"/>
+  </g>
+  <path d="m444 139 4 12 13 3-13 4-4 12-4-12-12-4 12-3Z" fill="#F2BB42"/>
+  <path d="m130 43 6 13-10 10-14-7 2-14Z" fill="#CC8D55"/>
+  <rect x="452" y="208" width="16" height="16" rx="1.5" transform="rotate(-12 452 208)" fill="#B88891"/>
+  <circle cx="58" cy="172" r="5" fill="#8F646B"/>
+  <circle cx="357" cy="26" r="3.5" fill="#B9DCEE"/>
+  <path d="m186 31 4 7m-7-3 9-1" stroke="#D5BC85" stroke-width="1.6" stroke-linecap="round"/>
+</svg>

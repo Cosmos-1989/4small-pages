@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="340" viewBox="0 0 560 340" role="img" aria-labelledby="title desc">
+<title id="title">长征与会师的主要时间节点</title><desc id="desc">1934年10月中央红军开始战略转移，1935年1月遵义会议，1935年10月中央红军到达陕北，1936年10月红军主力分别在会宁、将台堡等地会师。节点间距不表示实际时长。</desc>
+<style>text{font-family:"Songti SC",STSong,SimSun,serif;fill:#263344} .date{font-size:20px;font-weight:700;fill:#855454;letter-spacing:0.4px} .label{font-size:21px} .dot{fill:#a45e58;stroke:#fff;stroke-width:2} .note{font-size:15px;fill:#596a77}</style>
+<rect x="1" y="1" width="558" height="338" rx="16" fill="#f9f7f3" stroke="#e4ddd4"/>
+<path d="M144 40V288" stroke="#8d9ba0" stroke-width="2" fill="none"/><path d="M139 280L144 288L149 280" fill="none" stroke="#8d9ba0" stroke-width="2"/>
+<g><circle cx="144" cy="65" r="8" class="dot"/><circle cx="144" cy="65" r="2.8" fill="#fff"/><text x="118" y="72" class="date" text-anchor="end">1934.10</text><text x="170" y="72" class="label">中央红军开始战略转移</text></g><g><circle cx="144" cy="130" r="8" class="dot"/><circle cx="144" cy="130" r="2.8" fill="#fff"/><text x="118" y="137" class="date" text-anchor="end">1935.01</text><text x="170" y="137" class="label">遵义会议调整军事领导</text></g><g><circle cx="144" cy="195" r="8" class="dot"/><circle cx="144" cy="195" r="2.8" fill="#fff"/><text x="118" y="202" class="date" text-anchor="end">1935.10</text><text x="170" y="202" class="label">中央红军到达陕北</text></g><g><circle cx="144" cy="260" r="8" class="dot"/><circle cx="144" cy="260" r="2.8" fill="#fff"/><text x="118" y="267" class="date" text-anchor="end">1936.10</text><text x="170" y="267" class="label">红军主力分别在会宁、将台堡会师</text></g>
+<text x="34" y="320" class="note">时间向下　·　节点间距不表示实际时长</text>
+</svg>

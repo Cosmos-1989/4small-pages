@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">RNA 测序从样本到转录本证据</title><desc id="desc">RNA 经选择、逆转录与建库后测序；读段比对到外显子和剪接连接处，可提供转录本丰度与剪接证据。</desc>
+<defs>
+ <marker id="arr-b" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#4b7fa4"/></marker>
+ <marker id="arr-t" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#3b877a"/></marker>
+ <marker id="arr-p" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#aa6484"/></marker>
+ <marker id="arr-g" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#c38d47"/></marker>
+</defs>
+<style>text{font-family:'Songti SC',STSong,SimSun,'Noto Serif CJK SC',serif;fill:#263847}.major{font-size:25px;font-weight:600}.label{font-size:21px;font-weight:600}.minor{font-size:18px;fill:#516672}.small{font-size:16px;fill:#627681}.blue{fill:none;stroke:#4b7fa4;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-b)}.teal{fill:none;stroke:#3b877a;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-t)}.pink{fill:none;stroke:#aa6484;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-p)}.gold{fill:none;stroke:#c38d47;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-g)}.lead{fill:none;stroke:#708692;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}</style>
+<rect width="1000" height="560" fill="#ffffff"/>
+<text x="70" y="72" class="major">样本 RNA</text><text x="352" y="72" class="major">cDNA 文库</text><text x="710" y="72" class="major">测序读段</text>
+<rect x="65" y="112" width="212" height="196" rx="18" fill="#f2f8f7" stroke="#cee0dc"/>
+<path d="M97 163q38-40 78 0t78 0M97 212q43-31 81 0t76 0M97 255q34-27 67 0t78 0" fill="none" stroke="#3b877a" stroke-width="5" stroke-linecap="round"/>
+<text x="170" y="288" class="small" text-anchor="middle">提取并按目的选择 RNA</text>
+<path class="blue" d="M286 210H339"/>
+<rect x="354" y="112" width="285" height="196" rx="18" fill="#f5f8fb" stroke="#d8e2e9"/>
+<path d="M384 174H607M384 219H607M384 264H607" stroke="#4b7fa4" stroke-width="6" stroke-linecap="round"/>
+<g fill="#b16a86"><rect x="376" y="165" width="15" height="17" rx="3"/><rect x="603" y="165" width="15" height="17" rx="3"/><rect x="376" y="210" width="15" height="17" rx="3"/><rect x="603" y="210" width="15" height="17" rx="3"/></g>
+<text x="497" y="288" class="small" text-anchor="middle">逆转录、接头与扩增等步骤</text>
+<path class="blue" d="M649 210H691"/>
+<rect x="705" y="112" width="234" height="196" rx="18" fill="#faf7fa" stroke="#eadce5"/>
+<g stroke="#aa6484" stroke-width="6" stroke-linecap="round"><path d="M736 159h145M753 199h154M733 239h111M792 274h114"/></g>
+<text x="823" y="289" class="small" text-anchor="middle">大量短读段</text>
+<path class="teal" d="M825 315V359"/>
+<text x="135" y="391" class="label">比对到基因模型</text>
+<path d="M152 468H887" stroke="#8799a1" stroke-width="3"/>
+<rect x="205" y="438" width="116" height="58" rx="6" fill="#9ac5bf" stroke="#3b877a" stroke-width="2"/>
+<rect x="453" y="438" width="108" height="58" rx="6" fill="#9ac5bf" stroke="#3b877a" stroke-width="2"/>
+<rect x="742" y="438" width="98" height="58" rx="6" fill="#9ac5bf" stroke="#3b877a" stroke-width="2"/>
+<text x="264" y="476" class="minor" text-anchor="middle">外显子</text><text x="508" y="476" class="minor" text-anchor="middle">外显子</text><text x="791" y="476" class="minor" text-anchor="middle">外显子</text>
+<path d="M307 431Q397 382 486 430M546 430Q653 383 758 430" fill="none" stroke="#aa6484" stroke-width="3"/>
+<text x="612" y="399" class="small">跨连接处读段支持剪接</text>
+<text x="498" y="541" class="small" text-anchor="middle">读段计数须经过归一化与生物学重复；RNA 丰度不等于蛋白量</text>
+</svg>

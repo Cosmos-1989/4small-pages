@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">DNA转座与反转录转座的路径</title><desc id="desc">上行示意DNA转座元件切除再插入，下行示意反转录转座元件经过RNA中间体形成新拷贝。</desc>
+<defs>
+ <marker id="arrow" markerWidth="10" markerHeight="10" refX="8.6" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#3f7182"/></marker>
+ <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8.6" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#a5647b"/></marker>
+ <marker id="arrow3" markerWidth="10" markerHeight="10" refX="8.6" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#b68642"/></marker>
+ <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#fbfcf9"/><stop offset="1" stop-color="#f5f8f5"/></linearGradient>
+ <linearGradient id="nucleus" x2="0" y2="1"><stop stop-color="#eaf1fb"/><stop offset="1" stop-color="#f5f8fe"/></linearGradient>
+</defs>
+<style>
+ text{font-family:'Songti SC',STSong,SimSun,'Noto Serif CJK SC',serif;fill:#243d47}
+ .h{font-size:24px;font-weight:700}.lab{font-size:20px;font-weight:600}.mid{font-size:18px}.sm{font-size:16px;fill:#5d7077}.tiny{font-size:14px;fill:#65777e}
+ .dna{fill:none;stroke:#4d7184;stroke-width:9;stroke-linecap:round}.dna2{fill:none;stroke:#98b5bc;stroke-width:4;stroke-linecap:round}
+ .flow{fill:none;stroke:#3f7182;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}
+ .flow2{fill:none;stroke:#a5647b;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow2)}
+ .flow3{fill:none;stroke:#b68642;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow3)}
+ .guide{fill:none;stroke:#9fb4ba;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+ .card{fill:#fff;stroke:#d9e4e0;stroke-width:1.8}
+</style>
+<rect width="1000" height="560" fill="url(#paper)"/>
+
+<text x="62" y="54" class="h">转座元件：两类代表性移动路线</text>
+<rect x="50" y="96" width="900" height="172" rx="22" class="card"/>
+<rect x="50" y="287" width="900" height="193" rx="22" class="card"/>
+<text x="82" y="135" class="lab">DNA 转座子</text><text x="82" y="161" class="sm">示例：切除后插入</text>
+<path class="dna" d="M280 189H475"/><path class="dna2" d="M280 200H475"/><rect x="349" y="174" width="64" height="36" rx="8" fill="#dcbdce" stroke="#aa718d" stroke-width="2"/>
+<text x="381" y="198" text-anchor="middle" class="sm">元件</text>
+<path class="flow2" d="M415 161Q510 104 611 177"/>
+<path class="dna" d="M642 189H863"/><path class="dna2" d="M642 200H863"/><rect x="741" y="174" width="64" height="36" rx="8" fill="#dcbdce" stroke="#aa718d" stroke-width="2"/>
+<text x="773" y="198" text-anchor="middle" class="sm">元件</text>
+<path d="M348 189h66" stroke="#fff" stroke-width="4"/><text x="472" y="245" text-anchor="middle" class="sm">切除前的原位</text><text x="761" y="245" text-anchor="middle" class="sm">新插入位点</text>
+<text x="82" y="324" class="lab">反转录转座子</text><text x="82" y="350" class="sm">RNA 中间体形成新 DNA 拷贝</text>
+<path class="dna" d="M278 406H441"/><path class="dna2" d="M278 417H441"/><rect x="319" y="391" width="69" height="36" rx="8" fill="#d7c6e2" stroke="#967ca8" stroke-width="2"/>
+<text x="354" y="415" text-anchor="middle" class="sm">原拷贝</text>
+<path class="flow" d="M430 374H546"/>
+<path d="M548 404q30-18 64 0t58 0" fill="none" stroke="#b77993" stroke-width="5" stroke-linecap="round"/>
+<text x="607" y="367" text-anchor="middle" class="sm">转录成 RNA</text>
+<path class="flow2" d="M672 405H749"/>
+<path class="dna" d="M764 405H893"/><path class="dna2" d="M764 416H893"/>
+<rect x="805" y="390" width="65" height="36" rx="8" fill="#d7c6e2" stroke="#967ca8" stroke-width="2"/>
+<text x="838" y="415" text-anchor="middle" class="sm">新拷贝</text>
+<text x="739" y="466" text-anchor="middle" class="sm">逆转录后插入</text>
+<text x="501" y="528" text-anchor="middle" class="sm">多数遗存拷贝已不活跃；插入的效应取决于位点和细胞情境。</text>
+
+</svg>

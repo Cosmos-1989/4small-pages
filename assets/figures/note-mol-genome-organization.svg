@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">基因组的不同组织层次</title><desc id="desc">从细菌的染色体与质粒，到真核染色体、核小体和基因区域的多尺度组织。</desc>
+<defs>
+ <marker id="arrow" markerWidth="10" markerHeight="10" refX="8.6" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#3f7182"/></marker>
+ <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8.6" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#a5647b"/></marker>
+ <marker id="arrow3" markerWidth="10" markerHeight="10" refX="8.6" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#b68642"/></marker>
+ <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#fbfcf9"/><stop offset="1" stop-color="#f5f8f5"/></linearGradient>
+ <linearGradient id="nucleus" x2="0" y2="1"><stop stop-color="#eaf1fb"/><stop offset="1" stop-color="#f5f8fe"/></linearGradient>
+</defs>
+<style>
+ text{font-family:'Songti SC',STSong,SimSun,'Noto Serif CJK SC',serif;fill:#243d47}
+ .h{font-size:24px;font-weight:700}.lab{font-size:20px;font-weight:600}.mid{font-size:18px}.sm{font-size:16px;fill:#5d7077}.tiny{font-size:14px;fill:#65777e}
+ .dna{fill:none;stroke:#4d7184;stroke-width:9;stroke-linecap:round}.dna2{fill:none;stroke:#98b5bc;stroke-width:4;stroke-linecap:round}
+ .flow{fill:none;stroke:#3f7182;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}
+ .flow2{fill:none;stroke:#a5647b;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow2)}
+ .flow3{fill:none;stroke:#b68642;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow3)}
+ .guide{fill:none;stroke:#9fb4ba;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+ .card{fill:#fff;stroke:#d9e4e0;stroke-width:1.8}
+</style>
+<rect width="1000" height="560" fill="url(#paper)"/>
+
+<text x="62" y="54" class="h">从染色体到基因区域：结构层次与序列类型</text>
+<rect x="48" y="92" width="330" height="366" rx="22" class="card"/>
+<rect x="400" y="92" width="552" height="366" rx="22" class="card"/>
+<text x="212" y="134" text-anchor="middle" class="lab">细菌：典型组织</text>
+<ellipse cx="198" cy="273" rx="105" ry="72" fill="none" stroke="#6d9d9f" stroke-width="10"/>
+<ellipse cx="198" cy="273" rx="89" ry="57" fill="none" stroke="#b9d5d0" stroke-width="3"/>
+<path d="M157 207l20 14m60 7l25-13m-85 107l23 14" stroke="#b1748e" stroke-width="15" stroke-linecap="round"/>
+<circle cx="298" cy="362" r="37" fill="none" stroke="#bd8c62" stroke-width="8"/>
+<text x="137" y="399" class="sm">主要染色体</text><text x="260" y="426" class="sm">质粒（可有）</text>
+<text x="671" y="134" text-anchor="middle" class="lab">真核：染色体上的局部区域</text>
+<path d="M476 199q30-24 50 0l30 55q25 37 53-1l29-54q20-28 48 0l31 55q27 37 55-1l29-54q23-28 51 0" fill="none" stroke="#557a8b" stroke-width="10" stroke-linecap="round"/>
+<g fill="#dcb8c7" stroke="#a8778d" stroke-width="2"><circle cx="488" cy="196" r="22"/><circle cx="624" cy="209" r="22"/><circle cx="756" cy="209" r="22"/></g>
+<text x="853" y="203" class="sm">核小体</text>
+<path class="flow" d="M655 280V322"/>
+<path class="dna" d="M447 367H905"/><path class="dna2" d="M447 378H905"/>
+<rect x="470" y="350" width="68" height="35" rx="7" fill="#d7e8e5" stroke="#7fa7aa"/>
+<rect x="549" y="350" width="61" height="35" rx="7" fill="#edc8a1" stroke="#bb8957"/>
+<rect x="610" y="350" width="57" height="35" rx="7" fill="#e1c1cb" stroke="#ad798c"/>
+<rect x="667" y="350" width="52" height="35" rx="7" fill="#e7e6d6" stroke="#a5a994"/>
+<rect x="719" y="350" width="60" height="35" rx="7" fill="#e1c1cb" stroke="#ad798c"/>
+<rect x="801" y="350" width="70" height="35" rx="7" fill="#d9dbe9" stroke="#9a9ec0"/>
+<text x="504" y="410" text-anchor="middle" class="tiny">调控区</text><text x="580" y="410" text-anchor="middle" class="tiny">启动子</text>
+<text x="638" y="410" text-anchor="middle" class="tiny">外显子</text><text x="692" y="410" text-anchor="middle" class="tiny">内含子</text>
+<text x="748" y="410" text-anchor="middle" class="tiny">外显子</text><text x="837" y="410" text-anchor="middle" class="tiny">重复序列</text>
+<text x="501" y="501" text-anchor="middle" class="sm">结构相邻不等于功能相同；示意长度不反映各序列的真实比例。</text>
+
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">特异性切割与相容末端的连接</title><desc id="desc">以 EcoRI 为例，双链回文识别位点被交错切割，形成相容黏性末端；DNA 连接酶随后封闭骨架。</desc>
+<defs>
+ <marker id="arr-b" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#4b7fa4"/></marker>
+ <marker id="arr-t" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#3b877a"/></marker>
+ <marker id="arr-p" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#aa6484"/></marker>
+ <marker id="arr-g" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#c38d47"/></marker>
+</defs>
+<style>text{font-family:'Songti SC',STSong,SimSun,'Noto Serif CJK SC',serif;fill:#263847}.major{font-size:25px;font-weight:600}.label{font-size:21px;font-weight:600}.minor{font-size:18px;fill:#516672}.small{font-size:16px;fill:#627681}.blue{fill:none;stroke:#4b7fa4;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-b)}.teal{fill:none;stroke:#3b877a;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-t)}.pink{fill:none;stroke:#aa6484;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-p)}.gold{fill:none;stroke:#c38d47;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-g)}.lead{fill:none;stroke:#708692;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}</style>
+<rect width="1000" height="560" fill="#ffffff"/>
+<text x="60" y="72" class="major">识别位点</text><text x="60" y="103" class="minor">以 EcoRI 为例</text>
+<rect x="52" y="132" width="442" height="270" rx="18" fill="#f5f9fa" stroke="#d7e2e5"/>
+<text x="85" y="206" class="label">5′</text><text x="441" y="206" class="label">3′</text>
+<text x="85" y="329" class="label">3′</text><text x="441" y="329" class="label">5′</text>
+<path d="M135 201H426M135 325H426" stroke="#4b7fa4" stroke-width="5" stroke-linecap="round"/>
+<g stroke="#bdc9ce" stroke-width="2.5"><path d="M168 202v122M215 202v122M262 202v122M309 202v122M356 202v122M403 202v122"/></g>
+<g font-family="Songti SC,STSong,SimSun,serif" font-size="28" fill="#263847" text-anchor="middle"><text x="168" y="183">G</text><text x="215" y="183">A</text><text x="262" y="183">A</text><text x="309" y="183">T</text><text x="356" y="183">T</text><text x="403" y="183">C</text><text x="168" y="366">C</text><text x="215" y="366">T</text><text x="262" y="366">T</text><text x="309" y="366">A</text><text x="356" y="366">A</text><text x="403" y="366">G</text></g>
+<path d="M191 161v62M380 303v64" stroke="#b96782" stroke-width="4" stroke-linecap="round"/>
+<path d="M190 225Q275 267 379 302" stroke="#b96782" stroke-width="2.5" stroke-dasharray="9 8" fill="none"/>
+<text x="276" y="454" class="minor" text-anchor="middle">交错切口形成互补突出端</text>
+<path class="teal" d="M508 267H563"/>
+<rect x="587" y="132" width="354" height="270" rx="18" fill="#f7f7f3" stroke="#dfdfd5"/>
+<text x="612" y="179" class="label">相容末端配对</text>
+<path d="M619 225H694M704 225H826M620 316H779M789 316H827" stroke="#4b7fa4" stroke-width="7" stroke-linecap="round"/>
+<g stroke="#b4c6cd" stroke-width="2"><path d="M711 232v78M735 232v78M759 232v78M783 232v78"/></g>
+<path d="M699 216v18M784 307v18" stroke="#b96782" stroke-width="4"/>
+<path class="pink" d="M857 266H900"/>
+<text x="762" y="369" class="minor" text-anchor="middle">5′-AATT 突出端配对；连接酶封口</text>
+<text x="499" y="524" class="small" text-anchor="middle">碱基配对使末端靠近；共价连接仍需连接酶</text>
+</svg>

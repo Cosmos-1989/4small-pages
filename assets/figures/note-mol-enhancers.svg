@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">染色质折叠使增强子接近启动子</title><desc id="desc">DNA折叠让远端增强子和启动子在三维空间接近，结合的蛋白帮助调节转录。</desc>
+<defs>
+ <marker id="arrow" markerWidth="10" markerHeight="10" refX="8.6" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#3f7182"/></marker>
+ <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8.6" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#a5647b"/></marker>
+ <marker id="arrow3" markerWidth="10" markerHeight="10" refX="8.6" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#b68642"/></marker>
+ <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#fbfcf9"/><stop offset="1" stop-color="#f5f8f5"/></linearGradient>
+ <linearGradient id="nucleus" x2="0" y2="1"><stop stop-color="#eaf1fb"/><stop offset="1" stop-color="#f5f8fe"/></linearGradient>
+</defs>
+<style>
+ text{font-family:'Songti SC',STSong,SimSun,'Noto Serif CJK SC',serif;fill:#243d47}
+ .h{font-size:24px;font-weight:700}.lab{font-size:20px;font-weight:600}.mid{font-size:18px}.sm{font-size:16px;fill:#5d7077}.tiny{font-size:14px;fill:#65777e}
+ .dna{fill:none;stroke:#4d7184;stroke-width:9;stroke-linecap:round}.dna2{fill:none;stroke:#98b5bc;stroke-width:4;stroke-linecap:round}
+ .flow{fill:none;stroke:#3f7182;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}
+ .flow2{fill:none;stroke:#a5647b;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow2)}
+ .flow3{fill:none;stroke:#b68642;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow3)}
+ .guide{fill:none;stroke:#9fb4ba;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+ .card{fill:#fff;stroke:#d9e4e0;stroke-width:1.8}
+</style>
+<rect width="1000" height="560" fill="url(#paper)"/>
+
+<text x="62" y="54" class="h">线性 DNA 上相隔的序列，可在空间中相互接近</text>
+<path d="M100 396C170 402 188 360 209 291C229 220 283 160 365 165C454 169 485 274 561 286C629 295 666 352 891 397" fill="none" stroke="#537b8d" stroke-width="11" stroke-linecap="round"/>
+<path d="M100 410C170 416 202 375 223 305C243 236 284 175 362 179C447 183 478 288 556 300C628 309 669 366 891 411" fill="none" stroke="#a6c4c6" stroke-width="4" stroke-linecap="round"/>
+<path d="M190 341l18-9" stroke="#e8bc71" stroke-width="24" stroke-linecap="round"/>
+<path d="M671 366l23 4" stroke="#c394aa" stroke-width="25" stroke-linecap="round"/>
+<path d="M805 388l28 4" stroke="#d7dece" stroke-width="24" stroke-linecap="round"/>
+<circle cx="201" cy="303" r="25" fill="#e7c1d0" stroke="#b57f95" stroke-width="2"/>
+<circle cx="238" cy="307" r="20" fill="#e7c1d0" stroke="#b57f95" stroke-width="2"/>
+<path d="M680 335q7-40 43-31q25 9 17 39Z" fill="#c8dee2" stroke="#6f9ba8" stroke-width="2"/>
+<text x="195" y="263" text-anchor="middle" class="lab">转录因子</text>
+<path class="guide" d="M146 256L117 228H77"/><text x="72" y="217" class="sm">细胞类型相关的</text><text x="72" y="238" class="sm">蛋白组合</text>
+<path class="guide" d="M197 361L162 454"/><text x="166" y="485" class="lab" text-anchor="middle">增强子</text>
+<path class="guide" d="M684 392L652 455"/><text x="653" y="485" class="lab" text-anchor="middle">靶启动子</text>
+<path class="guide" d="M818 410L825 460"/><text x="841" y="486" class="sm" text-anchor="middle">邻近基因</text>
+<path d="M245 290Q472 154 666 326" fill="none" stroke="#b27d93" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="476" y="132" text-anchor="middle" class="lab">空间接触与调控复合物</text>
+<path class="guide" d="M760 306l55-42h100"/><text x="915" y="249" text-anchor="end" class="sm">RNA 聚合酶Ⅱ</text>
+<path class="flow" d="M748 333q69 1 128 42"/>
+<text x="482" y="537" text-anchor="middle" class="sm">DNA 线长与环形不对应真实距离；邻近不等于必然靶向。</text>
+
+</svg>

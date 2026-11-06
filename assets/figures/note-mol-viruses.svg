@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">病毒颗粒与宿主依赖的复制步骤</title><desc id="desc">病毒颗粒可有包膜；在宿主细胞内完成基因组复制、蛋白合成、装配与释放。</desc>
+<defs>
+ <marker id="arrow" markerWidth="10" markerHeight="10" refX="8.6" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#3f7182"/></marker>
+ <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8.6" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#a5647b"/></marker>
+ <marker id="arrow3" markerWidth="10" markerHeight="10" refX="8.6" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#b68642"/></marker>
+ <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#fbfcf9"/><stop offset="1" stop-color="#f5f8f5"/></linearGradient>
+ <linearGradient id="nucleus" x2="0" y2="1"><stop stop-color="#eaf1fb"/><stop offset="1" stop-color="#f5f8fe"/></linearGradient>
+</defs>
+<style>
+ text{font-family:'Songti SC',STSong,SimSun,'Noto Serif CJK SC',serif;fill:#243d47}
+ .h{font-size:24px;font-weight:700}.lab{font-size:20px;font-weight:600}.mid{font-size:18px}.sm{font-size:16px;fill:#5d7077}.tiny{font-size:14px;fill:#65777e}
+ .dna{fill:none;stroke:#4d7184;stroke-width:9;stroke-linecap:round}.dna2{fill:none;stroke:#98b5bc;stroke-width:4;stroke-linecap:round}
+ .flow{fill:none;stroke:#3f7182;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}
+ .flow2{fill:none;stroke:#a5647b;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow2)}
+ .flow3{fill:none;stroke:#b68642;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow3)}
+ .guide{fill:none;stroke:#9fb4ba;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+ .card{fill:#fff;stroke:#d9e4e0;stroke-width:1.8}
+</style>
+<rect width="1000" height="560" fill="url(#paper)"/>
+
+<text x="62" y="54" class="h">病毒颗粒携带基因组，复制依赖宿主细胞</text>
+<rect x="47" y="92" width="341" height="385" rx="23" class="card"/>
+<rect x="410" y="92" width="542" height="385" rx="23" class="card"/>
+<text x="216" y="135" text-anchor="middle" class="lab">病毒颗粒的一种形态</text>
+<circle cx="213" cy="278" r="91" fill="#f2e6eb" stroke="#b67f94" stroke-width="9"/>
+<g fill="#b67f94"><circle cx="213" cy="175" r="7"/><circle cx="284" cy="205" r="7"/><circle cx="308" cy="275" r="7"/><circle cx="282" cy="350" r="7"/><circle cx="213" cy="381" r="7"/><circle cx="142" cy="350" r="7"/><circle cx="118" cy="275" r="7"/><circle cx="143" cy="205" r="7"/></g>
+<path d="M213 176v-19M285 205l16-14M307 277h20M283 350l15 15M213 380v19M142 350l-15 15M119 277H99M142 205l-15-15" stroke="#b67f94" stroke-width="5" stroke-linecap="round"/>
+<circle cx="213" cy="278" r="60" fill="#d8e8e9" stroke="#7ca4ab" stroke-width="6"/>
+<path d="M180 273q14-25 29-5t31 0t23 15q-11 25-25 10t-29 3t-29-23" fill="none" stroke="#a87695" stroke-width="7" stroke-linecap="round"/>
+<path class="guide" d="M263 238l39-48h65"/><text x="365" y="184" text-anchor="end" class="sm">包膜（部分病毒）</text>
+<path class="guide" d="M264 301l39 22h64"/><text x="366" y="346" text-anchor="end" class="sm">蛋白衣壳</text>
+<path class="guide" d="M190 276l-79 24H62"/><text x="67" y="329" class="sm">核酸基因组</text>
+<text x="680" y="135" text-anchor="middle" class="lab">宿主细胞内的概念步骤</text>
+<ellipse cx="682" cy="287" rx="223" ry="122" fill="#f3f8f3" stroke="#97b6a5" stroke-width="3"/>
+<rect x="467" y="247" width="90" height="75" rx="14" fill="#f2e6eb" stroke="#b67f94" stroke-width="2"/>
+<text x="512" y="280" text-anchor="middle" class="sm">识别</text><text x="512" y="302" text-anchor="middle" class="sm">进入</text>
+<path class="flow" d="M561 285H599"/>
+<rect x="605" y="239" width="133" height="89" rx="15" fill="#e4eff0" stroke="#7ca4ab" stroke-width="2"/>
+<text x="672" y="269" text-anchor="middle" class="sm">基因组复制</text><text x="672" y="296" text-anchor="middle" class="sm">病毒蛋白合成</text>
+<path class="flow" d="M744 285H779"/>
+<rect x="787" y="247" width="94" height="75" rx="14" fill="#e7eee4" stroke="#96b38b" stroke-width="2"/>
+<text x="834" y="280" text-anchor="middle" class="sm">装配</text><text x="834" y="302" text-anchor="middle" class="sm">释放</text>
+<path class="guide" d="M669 332v60"/><text x="669" y="417" text-anchor="middle" class="sm">利用宿主核糖体；所用聚合酶因病毒而异</text>
+<text x="493" y="523" text-anchor="middle" class="sm">病毒的基因组、进入方式与释放机制多样；图不表示统一的复制路线。</text>
+
+</svg>

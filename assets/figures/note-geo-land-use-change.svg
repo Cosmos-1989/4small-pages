@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">不同地表覆盖下的降雨分配路径</title><desc id="desc">植被土壤地表有截留、蒸散和入渗路径，铺装地表更易形成快速地表径流。</desc>
+<defs>
+  <marker id="arrow-blue" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5 0 9Z" fill="#3888a1"/></marker>
+  <marker id="arrow-green" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5 0 9Z" fill="#448769"/></marker>
+  <marker id="arrow-orange" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5 0 9Z" fill="#d37e55"/></marker>
+  <marker id="arrow-slate" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5 0 9Z" fill="#657784"/></marker>
+  <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#f5faf9"/><stop offset="1" stop-color="#fff"/></linearGradient>
+</defs>
+<style>text{font-family:'Songti SC',STSong,SimSun,'Noto Serif CJK SC',serif;fill:#263943}.label{font-size:22px;font-weight:600}.minor{font-size:18px;fill:#50666e}.small{font-size:16px;fill:#5c7074}.leader{fill:none;stroke:#627681;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.water{fill:none;stroke:#3888a1;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow-blue)}.green{fill:none;stroke:#448769;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow-green)}.energy{fill:none;stroke:#d37e55;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow-orange)}.slate{fill:none;stroke:#657784;stroke-width:3.3;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow-slate)}</style>
+<rect width="1000" height="560" fill="url(#sky)"/>
+<path d="M70 350H930" stroke="#798c7d" stroke-width="2.5"/>
+<path d="M70 350H493V489H70Z" fill="#e7dec9"/>
+<path d="M507 350H930V489H507Z" fill="#d9dfdf"/>
+<path d="M70 489H930" stroke="#b4beb7" stroke-width="2"/>
+<path d="M492 95V498" stroke="#bac8c2" stroke-width="2" stroke-dasharray="8 9"/>
+<text x="275" y="73" class="label" text-anchor="middle">植被—土壤地表</text>
+<text x="719" y="73" class="label" text-anchor="middle">铺装地表</text>
+<g fill="#9ac4d1"><path d="M155 139l-5 15 5 6 5-6Z M215 120l-5 15 5 6 5-6Z M294 139l-5 15 5 6 5-6Z M363 126l-5 15 5 6 5-6Z M578 139l-5 15 5 6 5-6Z M642 120l-5 15 5 6 5-6Z M730 139l-5 15 5 6 5-6Z M806 126l-5 15 5 6 5-6Z"/></g>
+<g stroke="#71965f" fill="#a8c69a" stroke-width="2"><path d="M112 310q-31-72 17-93q41-6 56 39q35 27-12 55Z"/><path d="M244 311q-28-74 21-102q52-5 65 55q20 37-24 47Z"/><path d="M369 311q-23-70 20-96q41-5 59 57q16 32-23 39Z"/></g>
+<g stroke="#6d8057" stroke-width="5"><path d="M145 307v43M278 307v43M403 307v43"/></g>
+<path d="M86 350Q250 331 478 350" fill="none" stroke="#6a8e58" stroke-width="8"/>
+<path d="M520 349Q705 341 921 349" fill="none" stroke="#778991" stroke-width="16"/>
+<path d="M660 320v-90h135v90M690 230v-54h79v54" fill="#eef0ec" stroke="#6f8086" stroke-width="3"/>
+<path d="M826 347q61-5 95-35" fill="none" stroke="#3888a1" stroke-width="5" marker-end="url(#arrow-blue)"/>
+<path class="water" d="M313 357Q286 408 302 446"/><path class="water" d="M384 355Q386 410 408 452"/>
+<path class="water" d="M713 352Q800 362 862 340"/>
+<path class="energy" d="M180 305Q179 232 189 192"/>
+<text x="107" y="190" class="minor">截留与蒸散</text>
+<text x="264" y="470" class="minor">入渗</text>
+<text x="717" y="411" class="minor" text-anchor="middle">较快的地表径流</text>
+<path d="M93 515H907" stroke="#b4c1bd" stroke-width="1.6"/>
+<text x="499" y="540" class="small" text-anchor="middle">相同降雨输入下的路径比较；箭头宽度不表示水量</text>
+</svg>

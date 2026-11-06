@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1090 298" role="img">
+<title>明代小说中的商业活动</title>
+<desc>两列表格列出小说作品与作品描写的商人及商业活动。</desc>
+<rect width="100%" height="100%" fill="white"/>
+<g fill="none" stroke="#667477" stroke-width="1.3">
+<path d="M0 0V298"/>
+<path d="M190 0V298"/>
+<path d="M1090 0V298"/>
+<path d="M0 0H1090"/>
+<path d="M0 52H1090"/>
+<path d="M0 134H1090"/>
+<path d="M0 216H1090"/>
+<path d="M0 298H1090"/>
+</g>
+<g fill="#202927" font-family="Songti SC, SimSun, serif" font-size="22">
+<text x="95.0" y="26.0" text-anchor="middle" dominant-baseline="middle">作品</text>
+<text x="206" y="26.0" text-anchor="start" dominant-baseline="middle">内容</text>
+<text x="95.0" y="93.0" text-anchor="middle" dominant-baseline="middle">《警世通言》</text>
+<text x="206" y="78.0" text-anchor="start" dominant-baseline="middle">南京国子监监生孙富“徽州新安人氏，家资巨万”，</text>
+<text x="206" y="108.0" text-anchor="start" dominant-baseline="middle">世代在扬州经营盐业</text>
+<text x="95.0" y="175.0" text-anchor="middle" dominant-baseline="middle">《杜骗新书》</text>
+<text x="206" y="160.0" text-anchor="start" dominant-baseline="middle">徽州人吴胜理“在苏州府开铺，收买各样色布，揭行生意最大，</text>
+<text x="206" y="190.0" text-anchor="start" dominant-baseline="middle">四方买者极多，每日有几十两银交易”</text>
+<text x="95.0" y="257.0" text-anchor="middle" dominant-baseline="middle">《石点头》</text>
+<text x="206" y="242.0" text-anchor="start" dominant-baseline="middle">在扬州，来元“走到一个典铺里来当银，</text>
+<text x="206" y="272.0" text-anchor="start" dominant-baseline="middle">这典铺是姓程的徽州人所开”</text>
+</g></svg>

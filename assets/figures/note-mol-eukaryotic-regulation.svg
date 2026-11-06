@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">真核基因表达的多层调控</title><desc id="desc">核内染色质、转录、RNA加工与核外翻译和蛋白质周转的调控层次。</desc>
+<defs>
+ <marker id="arrow" markerWidth="10" markerHeight="10" refX="8.6" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#3f7182"/></marker>
+ <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8.6" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#a5647b"/></marker>
+ <marker id="arrow3" markerWidth="10" markerHeight="10" refX="8.6" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#b68642"/></marker>
+ <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#fbfcf9"/><stop offset="1" stop-color="#f5f8f5"/></linearGradient>
+ <linearGradient id="nucleus" x2="0" y2="1"><stop stop-color="#eaf1fb"/><stop offset="1" stop-color="#f5f8fe"/></linearGradient>
+</defs>
+<style>
+ text{font-family:'Songti SC',STSong,SimSun,'Noto Serif CJK SC',serif;fill:#243d47}
+ .h{font-size:24px;font-weight:700}.lab{font-size:20px;font-weight:600}.mid{font-size:18px}.sm{font-size:16px;fill:#5d7077}.tiny{font-size:14px;fill:#65777e}
+ .dna{fill:none;stroke:#4d7184;stroke-width:9;stroke-linecap:round}.dna2{fill:none;stroke:#98b5bc;stroke-width:4;stroke-linecap:round}
+ .flow{fill:none;stroke:#3f7182;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}
+ .flow2{fill:none;stroke:#a5647b;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow2)}
+ .flow3{fill:none;stroke:#b68642;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow3)}
+ .guide{fill:none;stroke:#9fb4ba;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+ .card{fill:#fff;stroke:#d9e4e0;stroke-width:1.8}
+</style>
+<rect width="1000" height="560" fill="url(#paper)"/>
+
+<text x="62" y="56" class="h">真核基因表达：从 DNA 到功能蛋白的多个控制点</text>
+<path d="M59 103H575Q596 103 596 125V470Q596 492 575 492H59Q38 492 38 470V125Q38 103 59 103Z" fill="url(#nucleus)" stroke="#b8cce0" stroke-width="2"/>
+<text x="78" y="143" class="lab">细胞核</text><text x="638" y="143" class="lab">细胞质</text>
+<path d="M596 110V481" stroke="#7b9ebc" stroke-width="9" stroke-dasharray="12 13"/>
+<path class="dna" d="M90 213C136 172 177 254 222 213S310 173 354 213"/>
+<path class="dna2" d="M90 225C136 184 177 266 222 225S310 185 354 225"/>
+<g fill="#d4a5b5" stroke="#a96c81" stroke-width="1.5"><circle cx="130" cy="192" r="18"/><circle cx="222" cy="232" r="18"/><circle cx="311" cy="191" r="18"/></g>
+<text x="223" y="284" text-anchor="middle" class="lab">染色质可及性</text>
+<path class="flow" d="M355 216H423"/>
+<rect x="425" y="181" width="122" height="82" rx="16" fill="#d5e5e7" stroke="#85a8b0" stroke-width="2"/>
+<text x="486" y="216" class="lab" text-anchor="middle">转录起始</text><text x="486" y="240" class="sm" text-anchor="middle">调控蛋白</text>
+<path class="flow" d="M486 268V328"/>
+<path d="M374 343q58-18 123 0t59 0" fill="none" stroke="#a66980" stroke-width="5" stroke-linecap="round"/>
+<rect x="424" y="333" width="46" height="17" rx="5" fill="#f0cfa3"/>
+<rect x="493" y="333" width="40" height="17" rx="5" fill="#f0cfa3"/>
+<text x="466" y="391" class="lab" text-anchor="middle">RNA 加工与输出</text>
+<path class="flow" d="M555 345H667"/>
+<path d="M676 342q40-14 81 0t80 0" fill="none" stroke="#a66980" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="754" cy="370" rx="65" ry="22" fill="#d8e8d6" stroke="#83a782" stroke-width="2"/>
+<text x="754" y="378" text-anchor="middle" class="sm">核糖体</text>
+<text x="756" y="285" class="lab" text-anchor="middle">翻译</text>
+<path class="flow" d="M837 342H906"/>
+<path d="M917 315q22 12 0 23q-18 11 0 21q18 12 0 21" fill="none" stroke="#b8834c" stroke-width="6" stroke-linecap="round"/>
+<text x="930" y="414" class="sm" text-anchor="middle">蛋白质</text>
+<path class="flow2" d="M445 401V459H327"/><text x="260" y="467" class="sm">RNA 降解</text>
+<path class="flow3" d="M916 433V470H767"/><text x="688" y="476" class="sm">修饰与降解</text>
+<text x="72" y="531" class="sm">控制点可叠加；RNA 丰度、蛋白质数量与蛋白质活性并不等同。</text>
+
+</svg>

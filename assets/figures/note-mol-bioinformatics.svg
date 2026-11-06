@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">序列证据到功能假说的推断路径</title><desc id="desc">序列经质量检查与比对后形成候选基因，再结合转录、结构域、进化和实验数据提出可检验的功能假说。</desc>
+<defs>
+ <marker id="arr-b" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#4b7fa4"/></marker>
+ <marker id="arr-t" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#3b877a"/></marker>
+ <marker id="arr-p" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#aa6484"/></marker>
+ <marker id="arr-g" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#c38d47"/></marker>
+</defs>
+<style>text{font-family:'Songti SC',STSong,SimSun,'Noto Serif CJK SC',serif;fill:#263847}.major{font-size:25px;font-weight:600}.label{font-size:21px;font-weight:600}.minor{font-size:18px;fill:#516672}.small{font-size:16px;fill:#627681}.blue{fill:none;stroke:#4b7fa4;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-b)}.teal{fill:none;stroke:#3b877a;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-t)}.pink{fill:none;stroke:#aa6484;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-p)}.gold{fill:none;stroke:#c38d47;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-g)}.lead{fill:none;stroke:#708692;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}</style>
+<rect width="1000" height="560" fill="#ffffff"/>
+<text x="53" y="69" class="major">序列数据</text><text x="384" y="69" class="major">比对与候选位点</text><text x="763" y="69" class="major">证据整合</text>
+<rect x="47" y="108" width="250" height="253" rx="17" fill="#f4f8fa" stroke="#d6e3e9"/>
+<g stroke="#4b7fa4" stroke-width="7" stroke-linecap="round"><path d="M79 156h174M79 213h151M79 270h186"/></g>
+<path d="M80 317h170" stroke="#b16a86" stroke-width="4" stroke-dasharray="11 7"/>
+<text x="169" y="341" class="small" text-anchor="middle">质量检查与去除低质读段</text>
+<path class="teal" d="M304 235H352"/>
+<rect x="366" y="108" width="329" height="253" rx="17" fill="#f8faf7" stroke="#dbe8dd"/>
+<text x="391" y="145" class="minor">参考序列</text>
+<path d="M395 178H665" stroke="#7c939d" stroke-width="7" stroke-linecap="round"/>
+<g fill="#6ba99b"><rect x="414" y="166" width="25" height="25" rx="4"/><rect x="449" y="166" width="25" height="25" rx="4"/><rect x="484" y="166" width="25" height="25" rx="4"/><rect x="519" y="166" width="25" height="25" rx="4"/><rect x="554" y="166" width="25" height="25" rx="4"/><rect x="589" y="166" width="25" height="25" rx="4"/></g>
+<text x="392" y="246" class="minor">查询序列</text>
+<g fill="#6ba99b"><rect x="414" y="266" width="25" height="25" rx="4"/><rect x="449" y="266" width="25" height="25" rx="4"/><rect x="484" y="266" width="25" height="25" rx="4"/><rect x="554" y="266" width="25" height="25" rx="4"/><rect x="589" y="266" width="25" height="25" rx="4"/></g>
+<rect x="519" y="266" width="25" height="25" rx="4" fill="#c98ca4"/>
+<text x="531" y="336" class="small" text-anchor="middle">匹配区域与差异位置均需解释</text>
+<path class="teal" d="M702 235H748"/>
+<rect x="761" y="108" width="192" height="253" rx="17" fill="#faf6fa" stroke="#e6dbe3"/>
+<text x="857" y="156" class="minor" text-anchor="middle">转录本</text><text x="857" y="204" class="minor" text-anchor="middle">保守结构域</text><text x="857" y="252" class="minor" text-anchor="middle">进化关系</text><text x="857" y="300" class="minor" text-anchor="middle">功能实验</text>
+<path class="teal" d="M856 370V410"/>
+<rect x="293" y="423" width="414" height="77" rx="18" fill="#e7f1ee" stroke="#a5c8ba"/>
+<text x="500" y="456" class="label" text-anchor="middle">可检验的功能假说</text>
+<text x="500" y="484" class="small" text-anchor="middle">相似性本身并非功能的最终证明</text>
+<text x="500" y="538" class="small" text-anchor="middle">“同源”指共同祖先的推断；需结合统计和独立证据</text>
+</svg>

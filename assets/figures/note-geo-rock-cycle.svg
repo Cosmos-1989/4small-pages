@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620" role="img" aria-labelledby="title desc">
+<title id="title">岩石类型之间的多路径转化</title><desc id="desc">山地、盆地和地下剖面展示岩浆结晶、风化沉积、埋藏变质、部分熔融及再次出露等不同路径。</desc>
+<defs>
+<marker id="arrow-blue" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#4d8cab"/></marker>
+<marker id="arrow-rust" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#c46f58"/></marker>
+<marker id="arrow-ink" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#4b6570"/></marker>
+<marker id="arrow-green" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#6a967c"/></marker>
+<linearGradient id="magma" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f1c386"/><stop offset="1" stop-color="#d8745c"/></linearGradient>
+<linearGradient id="sea" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#e7f3f5"/><stop offset="1" stop-color="#c8e3e9"/></linearGradient>
+<pattern id="granite" width="45" height="45" patternUnits="userSpaceOnUse"><rect width="45" height="45" fill="#dbd1c5"/><path d="M6 13l9-5 6 8-8 8-8-5zm24 11 7-5 5 7-8 7-7-4z" fill="#a5968a"/><path d="M22 35l4-7 6 4-3 7zM2 36l8-4 4 7-9 3z" fill="#6f7881"/><circle cx="36" cy="8" r="3" fill="#eee8df"/></pattern>
+<pattern id="grains" width="52" height="40" patternUnits="userSpaceOnUse"><rect width="52" height="40" fill="#e6d5ba"/><ellipse cx="10" cy="14" rx="7" ry="4" fill="#b98e69"/><ellipse cx="38" cy="26" rx="9" ry="5" fill="#c8a579"/><circle cx="27" cy="9" r="4" fill="#a87e64"/></pattern>
+</defs><rect width="1100" height="620" fill="#fff"/>
+<g font-family="Songti SC,STSong,SimSun,Noto Serif CJK SC,serif" fill="#283e47" stroke-linecap="round" stroke-linejoin="round">
+<path d="M0 370L140 328 270 162 402 326 515 364Q645 371 746 414L1100 415V620H0Z" fill="#d9c3a7" stroke="#8d8270" stroke-width="2.5"/>
+<path d="M0 415L142 394 275 197 400 362 515 403Q660 416 742 446L1100 448V620H0Z" fill="#b6aa95" opacity=".48"/>
+<path d="M520 370Q628 370 745 414L1100 414V500Q945 487 850 477Q653 454 520 440Z" fill="url(#sea)"/>
+<path d="M614 464Q775 473 904 495T1100 506M602 491Q782 506 933 521T1100 530" fill="none" stroke="#a98a6d" stroke-width="12" opacity=".8"/>
+<path d="M290 210l63 146 113 113-29 116-190 9-73-118 31-128Z" fill="url(#granite)" stroke="#736f66" stroke-width="2"/>
+<path d="M305 585Q367 518 434 542Q520 586 586 551Q668 503 739 556Q771 588 735 620H266Z" fill="url(#magma)" stroke="#b66550" stroke-width="3"/>
+<path d="M555 565Q610 516 682 533Q745 550 832 566L829 620H506Z" fill="#bda6a0" opacity=".85"/>
+<path d="M559 579Q634 552 709 577M546 601Q635 575 738 600" fill="none" stroke="#7f6f72" stroke-width="7"/>
+<path d="M312 139Q376 54 484 115" fill="none" stroke="#4b6570" stroke-width="3.5" marker-end="url(#arrow-ink)"/><text x="267" y="97" font-size="23">抬升、出露</text>
+<path d="M401 287Q503 327 573 383" fill="none" stroke="#c46f58" stroke-width="4" marker-end="url(#arrow-rust)"/><text x="420" y="279" font-size="24">风化与搬运</text>
+<path d="M771 421v64" fill="none" stroke="#4b6570" stroke-width="3.5" marker-end="url(#arrow-ink)"/><text x="799" y="400" font-size="24">沉积、埋藏</text>
+<path d="M909 519Q883 556 838 570" fill="none" stroke="#4b6570" stroke-width="3.5" marker-end="url(#arrow-ink)"/><text x="893" y="560" font-size="23">固态变质</text>
+<path d="M602 566Q553 541 488 561" fill="none" stroke="#c46f58" stroke-width="3.5" marker-end="url(#arrow-rust)"/><text x="397" y="519" font-size="23">部分熔融</text>
+<text x="180" y="449" font-size="25">岩浆岩</text><text x="847" y="475" font-size="24">沉积岩</text><text x="373" y="608" font-size="23" fill="#683f3f">岩浆</text><text x="699" y="607" font-size="23">变质岩</text>
+<text x="46" y="57" font-size="24" fill="#5a747a">可能路径，不是固定次序</text>
+</g>
+</svg>

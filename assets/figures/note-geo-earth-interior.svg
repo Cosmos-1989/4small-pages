@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620" role="img" aria-labelledby="title desc">
+<title id="title">地球的成分圈层与力学圈层</title><desc id="desc">地球剖面区分地壳、地幔、外核与内核；表层放大图中的岩石圈包含地壳与最上部地幔，其下为软流圈。尺寸不按比例。</desc>
+<defs>
+<marker id="arrow-blue" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#4d8cab"/></marker>
+<marker id="arrow-rust" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#c46f58"/></marker>
+<marker id="arrow-ink" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#4b6570"/></marker>
+<marker id="arrow-green" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#6a967c"/></marker>
+<linearGradient id="magma" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f1c386"/><stop offset="1" stop-color="#d8745c"/></linearGradient>
+<linearGradient id="sea" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#e7f3f5"/><stop offset="1" stop-color="#c8e3e9"/></linearGradient>
+<pattern id="granite" width="45" height="45" patternUnits="userSpaceOnUse"><rect width="45" height="45" fill="#dbd1c5"/><path d="M6 13l9-5 6 8-8 8-8-5zm24 11 7-5 5 7-8 7-7-4z" fill="#a5968a"/><path d="M22 35l4-7 6 4-3 7zM2 36l8-4 4 7-9 3z" fill="#6f7881"/><circle cx="36" cy="8" r="3" fill="#eee8df"/></pattern>
+<pattern id="grains" width="52" height="40" patternUnits="userSpaceOnUse"><rect width="52" height="40" fill="#e6d5ba"/><ellipse cx="10" cy="14" rx="7" ry="4" fill="#b98e69"/><ellipse cx="38" cy="26" rx="9" ry="5" fill="#c8a579"/><circle cx="27" cy="9" r="4" fill="#a87e64"/></pattern>
+</defs><rect width="1100" height="620" fill="#fff"/>
+<g font-family="Songti SC,STSong,SimSun,Noto Serif CJK SC,serif" fill="#283e47" stroke-linecap="round" stroke-linejoin="round">
+<text x="76" y="66" font-size="25" fill="#668a95">成分圈层</text>
+<circle cx="330" cy="320" r="228" fill="#d5b191" stroke="#49616a" stroke-width="3"/>
+<circle cx="330" cy="320" r="215" fill="#d9af82" stroke="#8b785f" stroke-width="2"/>
+<circle cx="330" cy="320" r="118" fill="url(#magma)" stroke="#af775e" stroke-width="2"/>
+<circle cx="330" cy="320" r="55" fill="#efce91" stroke="#ae795b" stroke-width="2"/>
+<path d="M113 240A228 228 0 0 1 386 99" fill="none" stroke="#6f8384" stroke-width="14"/>
+<path d="M160 168L71 130H44" fill="none" stroke="#667b80" stroke-width="1.6"/><text x="45" y="119" font-size="24">地壳</text>
+<path d="M480 175L577 138H619" fill="none" stroke="#667b80" stroke-width="1.6"/><text x="578" y="127" font-size="24">地幔</text>
+<path d="M433 365L579 386H620" fill="none" stroke="#667b80" stroke-width="1.6"/><text x="578" y="375" font-size="24">液态外核</text>
+<path d="M365 360L487 479H596" fill="none" stroke="#667b80" stroke-width="1.6"/><text x="489" y="510" font-size="24">固态内核</text>
+<path d="M480 99L678 99" fill="none" stroke="#7f9aa0" stroke-width="1.5" stroke-dasharray="5 6"/>
+<text x="727" y="66" font-size="25" fill="#668a95">表层力学性质（放大）</text>
+<path d="M681 126Q760 109 836 121T1080 119V560H681Z" fill="#e8d9c5" stroke="#788581" stroke-width="2"/>
+<path d="M681 126Q760 109 836 121T1080 119L1080 164Q999 170 908 162T681 166Z" fill="#c9c4b1"/>
+<path d="M681 166Q771 158 842 168T1080 164L1080 253Q982 258 902 249T681 253Z" fill="#b4b8a8"/>
+<path d="M681 253Q755 241 839 251T1080 253L1080 560H681Z" fill="#ddbd99"/>
+<path d="M681 126Q760 109 836 121T1080 119M681 166Q771 158 842 168T1080 164M681 253Q755 241 839 251T1080 253" fill="none" stroke="#647b7c" stroke-width="2"/>
+<text x="743" y="153" font-size="24">地壳</text><text x="735" y="218" font-size="25">坚硬上地幔</text>
+<text x="749" y="377" font-size="26">软流圈</text><text x="750" y="412" font-size="22" fill="#5a6e72">以固态为主，可缓慢变形</text>
+<path d="M1050 124h25v127h-25" fill="none" stroke="#394f58" stroke-width="2.5"/><text x="961" y="217" font-size="22" fill="#394f58">岩石圈</text>
+</g>
+</svg>

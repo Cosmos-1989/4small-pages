@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620" role="img" aria-labelledby="title desc">
+<title id="title">接触变质与区域变质的不同条件</title><desc id="desc">左侧岩浆侵入体周围有接触变质带，右侧受定向挤压的地层弯曲并出现片理。</desc>
+<defs>
+<marker id="arrow-blue" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#4d8cab"/></marker>
+<marker id="arrow-rust" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#c46f58"/></marker>
+<marker id="arrow-ink" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#4b6570"/></marker>
+<marker id="arrow-green" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#6a967c"/></marker>
+<linearGradient id="magma" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f1c386"/><stop offset="1" stop-color="#d8745c"/></linearGradient>
+<linearGradient id="sea" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#e7f3f5"/><stop offset="1" stop-color="#c8e3e9"/></linearGradient>
+<pattern id="granite" width="45" height="45" patternUnits="userSpaceOnUse"><rect width="45" height="45" fill="#dbd1c5"/><path d="M6 13l9-5 6 8-8 8-8-5zm24 11 7-5 5 7-8 7-7-4z" fill="#a5968a"/><path d="M22 35l4-7 6 4-3 7zM2 36l8-4 4 7-9 3z" fill="#6f7881"/><circle cx="36" cy="8" r="3" fill="#eee8df"/></pattern>
+<pattern id="grains" width="52" height="40" patternUnits="userSpaceOnUse"><rect width="52" height="40" fill="#e6d5ba"/><ellipse cx="10" cy="14" rx="7" ry="4" fill="#b98e69"/><ellipse cx="38" cy="26" rx="9" ry="5" fill="#c8a579"/><circle cx="27" cy="9" r="4" fill="#a87e64"/></pattern>
+</defs><rect width="1100" height="620" fill="#fff"/>
+<g font-family="Songti SC,STSong,SimSun,Noto Serif CJK SC,serif" fill="#283e47" stroke-linecap="round" stroke-linejoin="round">
+<text x="80" y="66" font-size="26" fill="#668a95">接触变质</text><text x="637" y="66" font-size="26" fill="#668a95">区域变质</text>
+<path d="M20 186Q218 170 520 186V580H20Z" fill="#d4c3a5" stroke="#837c6d" stroke-width="2.5"/>
+<path d="M23 235Q232 220 520 242M23 285Q260 278 520 295M23 365Q273 355 520 373M23 480Q293 462 520 480" fill="none" stroke="#aa9478" stroke-width="13"/>
+<path d="M192 588Q151 507 190 462Q222 426 205 383Q170 294 238 237Q272 214 296 257Q339 315 308 385Q293 448 333 484Q355 527 340 588Z" fill="#b6a69d" stroke="#81706e" stroke-width="2"/>
+<path d="M210 588Q186 490 222 454Q248 422 235 380Q210 307 252 267Q276 250 292 285Q316 339 282 395Q271 460 313 503Q324 530 311 588Z" fill="url(#magma)" stroke="#ad6552" stroke-width="3"/>
+<path d="M323 315L463 269H516" fill="none" stroke="#667a7b" stroke-width="1.8"/><text x="380" y="258" font-size="23">热作用范围</text>
+<path d="M275 432L356 439H436" fill="none" stroke="#667a7b" stroke-width="1.8"/><text x="355" y="473" font-size="23">岩浆侵入</text>
+<path d="M558 185Q694 163 760 250Q827 339 951 200L1080 204V582H558Z" fill="#d8c7ad" stroke="#827d70" stroke-width="2.5"/>
+<path d="M560 260Q695 230 764 315Q825 395 953 278L1080 280M560 325Q690 291 763 374Q823 449 954 346L1080 350M560 389Q695 360 764 433Q829 507 953 414L1080 420" fill="none" stroke="#a68b77" stroke-width="18"/>
+<path d="M586 485Q680 433 767 496Q828 552 943 478M586 511Q680 459 767 522Q828 578 943 504" fill="none" stroke="#6f7280" stroke-width="6"/>
+<path d="M631 150H741" fill="none" stroke="#4b6570" stroke-width="4" marker-end="url(#arrow-ink)"/><path d="M1009 150H897" fill="none" stroke="#4b6570" stroke-width="4" marker-end="url(#arrow-ink)"/>
+<text x="756" y="142" font-size="23">定向挤压</text>
+<path d="M854 509L954 554H1045" fill="none" stroke="#667a7b" stroke-width="1.8"/><text x="910" y="581" font-size="23">片理</text>
+<path d="M548 104V572" stroke="#d5d7d2" stroke-width="2" stroke-dasharray="6 9"/>
+<text x="52" y="608" font-size="21" fill="#64777a">两侧代表不同地质环境；变质发生于固态</text>
+</g>
+</svg>

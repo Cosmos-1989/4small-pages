@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" role="img">
+<title>英国建筑师在华分布</title>
+<desc>表格列出不同时期和地点的英国建筑师人数。</desc>
+<rect width="100%" height="100%" fill="white"/>
+<g fill="none" stroke="#667477" stroke-width="1.3">
+<path d="M0 0V250"/>
+<path d="M200 0V250"/>
+<path d="M350 0V250"/>
+<path d="M500 0V250"/>
+<path d="M650 0V250"/>
+<path d="M800 0V250"/>
+<path d="M0 0H800"/>
+<path d="M0 50H800"/>
+<path d="M0 100H800"/>
+<path d="M0 150H800"/>
+<path d="M0 200H800"/>
+<path d="M0 250H800"/>
+</g>
+<g fill="#202927" font-family="Songti SC, SimSun, serif" font-size="22">
+<text x="100.0" y="25.0" text-anchor="middle" dominant-baseline="middle">年份</text>
+<text x="275.0" y="25.0" text-anchor="middle" dominant-baseline="middle">上海</text>
+<text x="425.0" y="25.0" text-anchor="middle" dominant-baseline="middle">汉口</text>
+<text x="575.0" y="25.0" text-anchor="middle" dominant-baseline="middle">天津</text>
+<text x="725.0" y="25.0" text-anchor="middle" dominant-baseline="middle">北京</text>
+<text x="100.0" y="75.0" text-anchor="middle" dominant-baseline="middle">1846-1860</text>
+<text x="275.0" y="75.0" text-anchor="middle" dominant-baseline="middle">14</text>
+<text x="425.0" y="75.0" text-anchor="middle" dominant-baseline="middle">3</text>
+<text x="575.0" y="75.0" text-anchor="middle" dominant-baseline="middle">0</text>
+<text x="725.0" y="75.0" text-anchor="middle" dominant-baseline="middle">0</text>
+<text x="100.0" y="125.0" text-anchor="middle" dominant-baseline="middle">1861-1875</text>
+<text x="275.0" y="125.0" text-anchor="middle" dominant-baseline="middle">120</text>
+<text x="425.0" y="125.0" text-anchor="middle" dominant-baseline="middle">19</text>
+<text x="575.0" y="125.0" text-anchor="middle" dominant-baseline="middle">0</text>
+<text x="725.0" y="125.0" text-anchor="middle" dominant-baseline="middle">0</text>
+<text x="100.0" y="175.0" text-anchor="middle" dominant-baseline="middle">1876-1890</text>
+<text x="275.0" y="175.0" text-anchor="middle" dominant-baseline="middle">193</text>
+<text x="425.0" y="175.0" text-anchor="middle" dominant-baseline="middle">10</text>
+<text x="575.0" y="175.0" text-anchor="middle" dominant-baseline="middle">2</text>
+<text x="725.0" y="175.0" text-anchor="middle" dominant-baseline="middle">0</text>
+<text x="100.0" y="225.0" text-anchor="middle" dominant-baseline="middle">1891-1905</text>
+<text x="275.0" y="225.0" text-anchor="middle" dominant-baseline="middle">353</text>
+<text x="425.0" y="225.0" text-anchor="middle" dominant-baseline="middle">20</text>
+<text x="575.0" y="225.0" text-anchor="middle" dominant-baseline="middle">67</text>
+<text x="725.0" y="225.0" text-anchor="middle" dominant-baseline="middle">14</text>
+</g></svg>

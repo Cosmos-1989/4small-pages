@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" role="img" aria-labelledby="title desc">
+<title id="title">自我效能的经验反馈与行动条件</title><desc id="desc">经验为任务能力判断提供线索，判断影响行动，结果形成新的反馈。技能、难度和资源共同制约行动结果；没有定量因果或成功保证。</desc>
+<defs>
+ <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#536c7b"/></marker>
+ <marker id="sage" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#628674"/></marker>
+</defs>
+<style>
+ text {font-family:'Songti SC','SimSun','STSong',serif;fill:#283a45;font-size:25px}
+ .heading {font-size:31px;font-weight:600}
+ .small {font-size:23px;fill:#526572}
+ .muted {fill:#5a7366}
+ .flow {fill:none;stroke:#536c7b;stroke-width:2.6;marker-end:url(#arrow);stroke-linecap:round;stroke-linejoin:round}
+ .support {fill:none;stroke:#628674;stroke-width:2.5;marker-end:url(#sage);stroke-linecap:round;stroke-linejoin:round}
+</style>
+<rect width="1000" height="600" rx="18" fill="#fdfcf8"/>
+
+<rect x="50" y="100" width="250" height="155" rx="16" fill="#e9f0ec" stroke="#a6bdb0"/>
+<text x="175" y="145" text-anchor="middle" class="heading">经验与信息</text>
+<text x="175" y="189" text-anchor="middle">完成任务　观察示范</text>
+<text x="175" y="226" text-anchor="middle">具体反馈　身心线索</text>
+<rect x="375" y="100" width="250" height="155" rx="16" fill="#e8eff3" stroke="#a7bcc9"/>
+<text x="500" y="145" text-anchor="middle" class="heading">自我效能判断</text>
+<text x="500" y="192" text-anchor="middle">在这些条件下</text>
+<text x="500" y="229" text-anchor="middle">我能否完成这项行动</text>
+<rect x="700" y="100" width="250" height="155" rx="16" fill="#f4eddb" stroke="#ccbd94"/>
+<text x="825" y="145" text-anchor="middle" class="heading">行动过程</text>
+<text x="825" y="192" text-anchor="middle">选择　策略　投入</text>
+<text x="825" y="229" text-anchor="middle">坚持或调整</text>
+<path class="flow" d="M300 178H367"/>
+<path class="flow" d="M625 178H692"/>
+<rect x="375" y="360" width="250" height="110" rx="16" fill="#f1f1ed" stroke="#b7beb9"/>
+<text x="500" y="404" text-anchor="middle" class="heading">实际结果</text>
+<text x="500" y="445" text-anchor="middle">与预期比较</text>
+<path class="flow" d="M825 255V415H635"/>
+<text x="800" y="328" text-anchor="end" class="small">产生结果</text>
+<path class="support" d="M375 415H175V267"/>
+<text x="202" y="330" class="small muted">提供新经验</text>
+<text x="202" y="366" class="small muted">重新检验判断</text>
+<rect x="50" y="515" width="900" height="55" rx="10" fill="#f3f2eb"/>
+<text x="500" y="551" text-anchor="middle" class="small">行动和结果同时受到：已有技能、任务难度、资源与机会的影响</text>
+</svg>

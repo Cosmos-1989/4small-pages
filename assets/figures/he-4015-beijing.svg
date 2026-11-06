@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 247" role="img">
+<title>北京市城市规划中的功能定位</title>
+<desc>按1953年、1993年和2016年列出北京市城市规划中的功能定位。</desc>
+<rect width="100%" height="100%" fill="white"/>
+<g fill="none" stroke="#667477" stroke-width="1.3">
+<path d="M0 0V247"/>
+<path d="M140 0V247"/>
+<path d="M960 0V247"/>
+<path d="M0 0H960"/>
+<path d="M0 52H960"/>
+<path d="M0 117H960"/>
+<path d="M0 182H960"/>
+<path d="M0 247H960"/>
+</g>
+<g fill="#202927" font-family="Songti SC, SimSun, serif" font-size="22">
+<text x="70.0" y="26.0" text-anchor="middle" dominant-baseline="middle">时间</text>
+<text x="156" y="26.0" text-anchor="start" dominant-baseline="middle">定位</text>
+<text x="70.0" y="84.5" text-anchor="middle" dominant-baseline="middle">1953年</text>
+<text x="156" y="84.5" text-anchor="start" dominant-baseline="middle">我国政治、经济和文化的中心，强大工业基地和技术科学的中心</text>
+<text x="70.0" y="149.5" text-anchor="middle" dominant-baseline="middle">1993年</text>
+<text x="156" y="149.5" text-anchor="start" dominant-baseline="middle">全国的政治中心和文化中心，世界著名的古都和现代国际城市</text>
+<text x="70.0" y="214.5" text-anchor="middle" dominant-baseline="middle">2016年</text>
+<text x="156" y="214.5" text-anchor="start" dominant-baseline="middle">全国政治中心、文化中心、国际交往中心、科技创新中心</text>
+</g></svg>

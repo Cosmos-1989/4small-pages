@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620" role="img" aria-labelledby="title desc">
+<title id="title">曲流河道、点坝和河漫滩</title><desc id="desc">俯视曲流河道显示外弯侵蚀、内弯点坝堆积与洪水漫向河漫滩的可能路径。</desc>
+<defs>
+<marker id="arrow-blue" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#4d8cab"/></marker>
+<marker id="arrow-rust" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#c46f58"/></marker>
+<marker id="arrow-ink" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#4b6570"/></marker>
+<marker id="arrow-green" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#6a967c"/></marker>
+<linearGradient id="magma" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f1c386"/><stop offset="1" stop-color="#d8745c"/></linearGradient>
+<linearGradient id="sea" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#e7f3f5"/><stop offset="1" stop-color="#c8e3e9"/></linearGradient>
+<pattern id="granite" width="45" height="45" patternUnits="userSpaceOnUse"><rect width="45" height="45" fill="#dbd1c5"/><path d="M6 13l9-5 6 8-8 8-8-5zm24 11 7-5 5 7-8 7-7-4z" fill="#a5968a"/><path d="M22 35l4-7 6 4-3 7zM2 36l8-4 4 7-9 3z" fill="#6f7881"/><circle cx="36" cy="8" r="3" fill="#eee8df"/></pattern>
+<pattern id="grains" width="52" height="40" patternUnits="userSpaceOnUse"><rect width="52" height="40" fill="#e6d5ba"/><ellipse cx="10" cy="14" rx="7" ry="4" fill="#b98e69"/><ellipse cx="38" cy="26" rx="9" ry="5" fill="#c8a579"/><circle cx="27" cy="9" r="4" fill="#a87e64"/></pattern>
+</defs><rect width="1100" height="620" fill="#fff"/>
+<g font-family="Songti SC,STSong,SimSun,Noto Serif CJK SC,serif" fill="#283e47" stroke-linecap="round" stroke-linejoin="round">
+<path d="M28 109H1072V555H28Z" fill="#edf1e8"/>
+<path d="M68 423Q154 164 347 196Q526 226 500 391Q482 504 671 458Q827 418 772 202Q738 94 1026 184" fill="none" stroke="#b8cabb" stroke-width="168" opacity=".72"/>
+<path d="M68 423Q154 164 347 196Q526 226 500 391Q482 504 671 458Q827 418 772 202Q738 94 1026 184" fill="none" stroke="#779dad" stroke-width="111"/>
+<path d="M68 423Q154 164 347 196Q526 226 500 391Q482 504 671 458Q827 418 772 202Q738 94 1026 184" fill="none" stroke="#bcdfe7" stroke-width="103"/>
+<path d="M221 256Q276 226 345 239Q413 252 439 312Q387 280 328 286Q279 289 221 256Z" fill="#e2c394" stroke="#b89468" stroke-width="2"/>
+<path d="M626 408Q683 387 710 338Q735 287 720 248Q767 305 749 369Q732 427 665 441Z" fill="#e2c394" stroke="#b89468" stroke-width="2"/>
+<path d="M317 143Q431 135 501 231" fill="none" stroke="#c46f58" stroke-width="8"/>
+<path d="M829 146Q890 112 986 137" fill="none" stroke="#c46f58" stroke-width="8"/>
+<path d="M107 403Q167 302 222 247" fill="none" stroke="#4d8cab" stroke-width="5" marker-end="url(#arrow-blue)"/>
+<path d="M461 303Q516 353 509 405" fill="none" stroke="#4d8cab" stroke-width="5" marker-end="url(#arrow-blue)"/>
+<path d="M580 468Q669 479 733 392" fill="none" stroke="#4d8cab" stroke-width="5" marker-end="url(#arrow-blue)"/>
+<path d="M325 145L313 82H254" fill="none" stroke="#708280" stroke-width="1.7"/><text x="63" y="75" font-size="25">外弯：凹岸侵蚀</text>
+<path d="M307 269L231 345H163" fill="none" stroke="#708280" stroke-width="1.7"/><text x="39" y="377" font-size="24">内弯：点坝堆积</text>
+<path d="M884 316Q925 355 973 370" fill="none" stroke="#4d8cab" stroke-width="3.8" marker-end="url(#arrow-blue)"/>
+<path d="M810 430Q850 452 897 467" fill="none" stroke="#4d8cab" stroke-width="3.8" marker-end="url(#arrow-blue)"/>
+<text x="858" y="503" font-size="23">洪水漫溢</text>
+<text x="57" y="578" font-size="23" fill="#61797d">河漫滩：洪水时期可发生沉积</text>
+</g>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 570" role="img" aria-labelledby="title desc">
+<title id="title">情绪形成过程中的不同调节位置</title><desc id="desc">情境、注意、评价和情绪反应相互联系。改变情境、调节注意、认知重评和调节反应可在不同位置介入，反应会反馈至后续情境。</desc>
+<defs>
+ <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#536c7b"/></marker>
+ <marker id="sage" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#628674"/></marker>
+</defs>
+<style>
+ text {font-family:'Songti SC','SimSun','STSong',serif;fill:#283a45;font-size:25px}
+ .heading {font-size:31px;font-weight:600}
+ .small {font-size:23px;fill:#526572}
+ .muted {fill:#5a7366}
+ .flow {fill:none;stroke:#536c7b;stroke-width:2.6;marker-end:url(#arrow);stroke-linecap:round;stroke-linejoin:round}
+ .support {fill:none;stroke:#628674;stroke-width:2.5;marker-end:url(#sage);stroke-linecap:round;stroke-linejoin:round}
+</style>
+<rect width="1000" height="570" rx="18" fill="#fdfcf8"/>
+
+<path d="M148 130V88Q148 70 170 70H834Q852 70 852 88V130" fill="none" stroke="#c9d1cd" stroke-width="2"/>
+<text x="500" y="48" text-anchor="middle" class="small">实际经验可反复发生，多个过程也会重叠</text>
+<rect x="42" y="142" width="210" height="135" rx="15" fill="#e8efeb" stroke="#a5bcae"/>
+<text x="147" y="188" text-anchor="middle" class="heading">情境</text>
+<text x="147" y="234" text-anchor="middle">发生了什么</text>
+<rect x="277" y="142" width="210" height="135" rx="15" fill="#e8eff3" stroke="#acbdc9"/>
+<text x="382" y="188" text-anchor="middle" class="heading">注意</text>
+<text x="382" y="234" text-anchor="middle">关注哪些线索</text>
+<rect x="512" y="142" width="210" height="135" rx="15" fill="#f3ecdc" stroke="#cbbb98"/>
+<text x="617" y="188" text-anchor="middle" class="heading">评价</text>
+<text x="617" y="234" text-anchor="middle">怎样理解意义</text>
+<rect x="747" y="142" width="210" height="135" rx="15" fill="#eeeaf0" stroke="#beb2c5"/>
+<text x="852" y="188" text-anchor="middle" class="heading">反应</text>
+<text x="852" y="230" text-anchor="middle" class="small">体验　身体　行动</text>
+<path class="flow" d="M252 209H270"/><path class="flow" d="M487 209H505"/><path class="flow" d="M722 209H740"/>
+<path class="support" d="M147 354V289"/>
+<path class="support" d="M382 354V289"/>
+<path class="support" d="M617 354V289"/>
+<path class="support" d="M852 354V289"/>
+<text x="147" y="391" text-anchor="middle">选择或改变情境</text>
+<text x="147" y="426" text-anchor="middle" class="small">离开危险　寻求支持</text>
+<text x="382" y="391" text-anchor="middle">调节注意</text>
+<text x="382" y="426" text-anchor="middle" class="small">暂时转移　聚焦任务</text>
+<text x="617" y="391" text-anchor="middle">认知重评</text>
+<text x="617" y="426" text-anchor="middle" class="small">核对事实　改变解释</text>
+<text x="852" y="391" text-anchor="middle">调节反应</text>
+<text x="852" y="426" text-anchor="middle" class="small">呼吸　表达　行为</text>
+<path class="flow" d="M957 209H979V484Q979 504 959 504H63Q22 504 22 468V209H32"/>
+<rect x="323" y="488" width="354" height="31" fill="#fdfcf8"/>
+<text x="500" y="511" text-anchor="middle" class="small">反应改变后续情境</text>
+<text x="500" y="553" text-anchor="middle" class="small">选择策略须结合目标与处境；调节不等于压住全部感受</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620" role="img" aria-labelledby="title desc">
+<title id="title">地下侵入与地表喷出的冷却环境</title><desc id="desc">地下岩浆房和侵入通道通向地表熔岩流；右侧示意较慢与较快冷却时常见晶体大小差异。</desc>
+<defs>
+<marker id="arrow-blue" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#4d8cab"/></marker>
+<marker id="arrow-rust" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#c46f58"/></marker>
+<marker id="arrow-ink" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#4b6570"/></marker>
+<marker id="arrow-green" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#6a967c"/></marker>
+<linearGradient id="magma" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f1c386"/><stop offset="1" stop-color="#d8745c"/></linearGradient>
+<linearGradient id="sea" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#e7f3f5"/><stop offset="1" stop-color="#c8e3e9"/></linearGradient>
+<pattern id="granite" width="45" height="45" patternUnits="userSpaceOnUse"><rect width="45" height="45" fill="#dbd1c5"/><path d="M6 13l9-5 6 8-8 8-8-5zm24 11 7-5 5 7-8 7-7-4z" fill="#a5968a"/><path d="M22 35l4-7 6 4-3 7zM2 36l8-4 4 7-9 3z" fill="#6f7881"/><circle cx="36" cy="8" r="3" fill="#eee8df"/></pattern>
+<pattern id="grains" width="52" height="40" patternUnits="userSpaceOnUse"><rect width="52" height="40" fill="#e6d5ba"/><ellipse cx="10" cy="14" rx="7" ry="4" fill="#b98e69"/><ellipse cx="38" cy="26" rx="9" ry="5" fill="#c8a579"/><circle cx="27" cy="9" r="4" fill="#a87e64"/></pattern>
+</defs><rect width="1100" height="620" fill="#fff"/>
+<g font-family="Songti SC,STSong,SimSun,Noto Serif CJK SC,serif" fill="#283e47" stroke-linecap="round" stroke-linejoin="round">
+<path d="M0 292Q140 278 219 316L379 128 500 323Q675 325 781 322V620H0Z" fill="#d9c4a8" stroke="#857b69" stroke-width="2.5"/>
+<path d="M266 300L379 128 494 323M0 373Q183 352 312 392T780 390M0 458Q235 428 350 461T780 455" fill="none" stroke="#a48c73" stroke-width="10" opacity=".7"/>
+<path d="M321 377Q302 440 382 453Q413 476 358 513Q307 547 372 566Q469 583 516 547Q560 494 474 469Q440 449 436 379Z" fill="url(#magma)" stroke="#ae6652" stroke-width="3"/>
+<path d="M364 413Q384 325 378 132" fill="none" stroke="#d77459" stroke-width="32"/>
+<path d="M379 132Q408 176 434 232Q463 292 499 318Q545 325 593 324Q638 324 676 327" fill="none" stroke="#cf7059" stroke-width="18"/>
+<path d="M415 201Q449 274 498 318Q557 323 605 323" fill="none" stroke="#eaa98b" stroke-width="6"/>
+<path d="M242 495L152 523H78" fill="none" stroke="#60777a" stroke-width="1.8"/><text x="70" y="550" font-size="24">地下侵入体</text>
+<path d="M432 370L555 361H616" fill="none" stroke="#60777a" stroke-width="1.8"/><text x="546" y="350" font-size="24">岩浆通道</text>
+<path d="M585 324L729 129H782" fill="none" stroke="#60777a" stroke-width="1.8"/><text x="665" y="115" font-size="24">地表熔岩</text>
+<path d="M797 104h270v421H797" fill="#f8f6f1" stroke="#d9d9d1" stroke-width="2"/>
+<circle cx="924" cy="238" r="79" fill="#e8d8c5" stroke="#b7a997" stroke-width="2"/>
+<path d="M885 213l22-17 20 20-18 23-25-4zm58-35 23 11 9 25-26 10-14-18zm-10 74 26-8 15 19-22 21-24-14z" fill="#8c827e" stroke="#676d71" stroke-width="2"/>
+<text x="923" y="345" font-size="23" text-anchor="middle">较慢冷却：常见粗晶</text>
+<circle cx="923" cy="424" r="54" fill="#d9cbc0" stroke="#b7a997" stroke-width="2"/>
+<g fill="#787f82"><circle cx="898" cy="414" r="4"/><circle cx="931" cy="400" r="3"/><circle cx="948" cy="437" r="4"/><circle cx="911" cy="446" r="3"/><circle cx="939" cy="425" r="2"/></g>
+<text x="922" y="513" font-size="23" text-anchor="middle">较快冷却：常见细晶</text>
+<text x="804" y="575" font-size="21" fill="#65777b">成分仍须单独判断</text>
+</g>
+</svg>

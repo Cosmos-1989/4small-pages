@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">火山喷发的不同影响路径</title><desc id="desc">火山灰可随风沉降，火山碎屑密度流可沿坡移动，有水参与时松散物质可能形成沿谷地行进的火山泥流。</desc>
+<defs>
+  <marker id="arrow-blue" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5 0 9Z" fill="#3888a1"/></marker>
+  <marker id="arrow-green" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5 0 9Z" fill="#448769"/></marker>
+  <marker id="arrow-orange" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5 0 9Z" fill="#d37e55"/></marker>
+  <marker id="arrow-slate" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5 0 9Z" fill="#657784"/></marker>
+  <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#f5faf9"/><stop offset="1" stop-color="#fff"/></linearGradient>
+</defs>
+<style>text{font-family:'Songti SC',STSong,SimSun,'Noto Serif CJK SC',serif;fill:#263943}.label{font-size:22px;font-weight:600}.minor{font-size:18px;fill:#50666e}.small{font-size:16px;fill:#5c7074}.leader{fill:none;stroke:#627681;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.water{fill:none;stroke:#3888a1;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow-blue)}.green{fill:none;stroke:#448769;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow-green)}.energy{fill:none;stroke:#d37e55;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow-orange)}.slate{fill:none;stroke:#657784;stroke-width:3.3;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow-slate)}</style>
+<rect width="1000" height="560" fill="url(#sky)"/>
+<path d="M55 400Q225 385 319 332L466 188L500 192L626 340Q730 390 945 401V510H55Z" fill="#dfddd4" stroke="#989b92" stroke-width="2.5"/>
+<path d="M465 188l-5 12h40l-4-11" fill="#936d60" stroke="#805b54" stroke-width="2"/>
+<path d="M473 193Q440 138 469 116Q446 90 466 69Q490 45 511 77Q552 74 548 114Q569 141 526 154Q541 187 497 190Z" fill="#dedbd7" stroke="#a3a3a0" stroke-width="2.5"/>
+<path d="M513 117Q619 105 757 148" fill="none" stroke="#929b9c" stroke-width="2" stroke-dasharray="9 8" marker-end="url(#arrow-slate)"/>
+<g fill="#aa9d95"><circle cx="580" cy="149" r="5"/><circle cx="619" cy="166" r="4"/><circle cx="658" cy="174" r="5"/><circle cx="696" cy="190" r="4"/><circle cx="735" cy="206" r="5"/></g>
+<path d="M463 207Q409 275 345 309Q285 345 193 373" fill="none" stroke="#bd7160" stroke-width="16" stroke-linecap="round"/>
+<path d="M460 212Q422 267 361 310" fill="none" stroke="#e0a079" stroke-width="6" stroke-linecap="round"/>
+<path d="M505 225Q557 301 620 349Q671 382 748 396" fill="none" stroke="#628ba1" stroke-width="13" stroke-linecap="round" stroke-dasharray="26 9"/>
+<path d="M605 223l-5 15 5 5 5-5Zm26 14l-5 15 5 5 5-5Zm31 8l-5 15 5 5 5-5Z" fill="#94bdcb"/>
+<path class="leader" d="M694 178l72-74h169M365 300l-95-132H80M643 364l99-70h184"/>
+<circle cx="694" cy="178" r="4" fill="#909b9e"/><circle cx="365" cy="300" r="4" fill="#bd7160"/><circle cx="643" cy="364" r="4" fill="#628ba1"/>
+<text x="744" y="69" class="label">下风向降灰</text><text x="744" y="96" class="minor">依风场与喷发而异</text>
+<text x="61" y="119" class="label">火山碎屑密度流</text><text x="61" y="146" class="minor">高温物质可沿坡下行</text>
+<text x="763" y="264" class="label">火山泥流</text><text x="763" y="291" class="minor">有水参与时沿谷地移动</text>
+<path d="M463 199Q481 305 491 500" fill="none" stroke="#a26d5b" stroke-width="6" stroke-dasharray="13 9"/>
+<text x="386" y="462" class="minor">岩浆通道</text>
+<text x="500" y="543" class="small" text-anchor="middle">不同路径并非同一次喷发必然同时出现</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">由受体到细胞响应的信号路径</title><desc id="desc">胞外配体结合膜受体，经胞内传递使代谢和基因表达发生响应，并受到反馈限制。</desc>
+<defs>
+ <marker id="arrow" markerWidth="10" markerHeight="10" refX="8.6" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#3f7182"/></marker>
+ <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8.6" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#a5647b"/></marker>
+ <marker id="arrow3" markerWidth="10" markerHeight="10" refX="8.6" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#b68642"/></marker>
+ <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#fbfcf9"/><stop offset="1" stop-color="#f5f8f5"/></linearGradient>
+ <linearGradient id="nucleus" x2="0" y2="1"><stop stop-color="#eaf1fb"/><stop offset="1" stop-color="#f5f8fe"/></linearGradient>
+</defs>
+<style>
+ text{font-family:'Songti SC',STSong,SimSun,'Noto Serif CJK SC',serif;fill:#243d47}
+ .h{font-size:24px;font-weight:700}.lab{font-size:20px;font-weight:600}.mid{font-size:18px}.sm{font-size:16px;fill:#5d7077}.tiny{font-size:14px;fill:#65777e}
+ .dna{fill:none;stroke:#4d7184;stroke-width:9;stroke-linecap:round}.dna2{fill:none;stroke:#98b5bc;stroke-width:4;stroke-linecap:round}
+ .flow{fill:none;stroke:#3f7182;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}
+ .flow2{fill:none;stroke:#a5647b;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow2)}
+ .flow3{fill:none;stroke:#b68642;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow3)}
+ .guide{fill:none;stroke:#9fb4ba;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+ .card{fill:#fff;stroke:#d9e4e0;stroke-width:1.8}
+</style>
+<rect width="1000" height="560" fill="url(#paper)"/>
+
+<text x="62" y="54" class="h">细胞外信号经受体识别后，引发具有情境性的响应</text>
+<rect x="49" y="109" width="881" height="378" rx="24" class="card"/>
+<text x="83" y="145" class="lab">细胞外</text><text x="318" y="145" class="lab">细胞内</text>
+<path d="M254 139V452M268 139V452" stroke="#8ab8bd" stroke-width="8" stroke-linecap="round"/>
+<g fill="#d0e5e3" stroke="#7ca9ae" stroke-width="1.5"><circle cx="253" cy="177" r="5"/><circle cx="267" cy="202" r="5"/><circle cx="253" cy="250" r="5"/><circle cx="267" cy="325" r="5"/><circle cx="253" cy="390" r="5"/></g>
+<path d="M126 290q27-40 57 0q-29 43-57 0Z" fill="#ebd0a5" stroke="#bb8c4f" stroke-width="2"/><text x="155" y="352" text-anchor="middle" class="sm">配体</text>
+<path class="flow3" d="M184 290H230"/>
+<path d="M226 261q25-25 54 0l-12 54h-29Z" fill="#e3c2cf" stroke="#a87389" stroke-width="2.5"/>
+<path d="M242 285q13 17 26 0" fill="none" stroke="#965970" stroke-width="3"/>
+<text x="260" y="355" text-anchor="middle" class="sm">受体</text>
+<path class="flow" d="M290 287H364"/>
+<circle cx="393" cy="286" r="38" fill="#d4e4e7" stroke="#79a0aa" stroke-width="2"/><text x="393" y="291" class="sm" text-anchor="middle">中继</text>
+<path class="flow" d="M433 286H493"/>
+<circle cx="527" cy="286" r="35" fill="#dbe8d3" stroke="#89ad81" stroke-width="2"/><text x="527" y="290" class="sm" text-anchor="middle">激酶</text>
+<path class="flow" d="M564 279H616"/>
+<circle cx="649" cy="286" r="30" fill="#dbe8d3" stroke="#89ad81" stroke-width="2"/><text x="649" y="291" class="sm" text-anchor="middle">靶蛋白</text>
+<path class="flow" d="M680 269L734 204"/><path class="flow" d="M678 301L741 377"/>
+<rect x="736" y="148" width="162" height="79" rx="17" fill="#f0f0d8" stroke="#b6b88b" stroke-width="2"/>
+<text x="817" y="180" text-anchor="middle" class="lab">快速响应</text><text x="817" y="207" text-anchor="middle" class="sm">代谢或运动</text>
+<rect x="736" y="353" width="162" height="79" rx="17" fill="#e6e4f1" stroke="#a5a0c4" stroke-width="2"/>
+<text x="817" y="385" text-anchor="middle" class="lab">较慢响应</text><text x="817" y="412" text-anchor="middle" class="sm">基因表达改变</text>
+<path class="flow2" d="M532 327C524 439 411 447 385 331" stroke-dasharray="8 8"/>
+<text x="454" y="447" text-anchor="middle" class="sm">反馈调节</text>
+<text x="491" y="524" text-anchor="middle" class="sm">所示为膜受体途径；受体与靶蛋白组成不同，响应也不同。</text>
+
+</svg>

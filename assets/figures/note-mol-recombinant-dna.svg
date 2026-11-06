@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">目标片段进入可复制质粒的过程</title><desc id="desc">线性目标片段与质粒组装，形成含复制起点、选择标记和插入片段的重组质粒，导入细胞后复制并验证。</desc>
+<defs>
+ <marker id="arr-b" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#4b7fa4"/></marker>
+ <marker id="arr-t" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#3b877a"/></marker>
+ <marker id="arr-p" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#aa6484"/></marker>
+ <marker id="arr-g" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#c38d47"/></marker>
+</defs>
+<style>text{font-family:'Songti SC',STSong,SimSun,'Noto Serif CJK SC',serif;fill:#263847}.major{font-size:25px;font-weight:600}.label{font-size:21px;font-weight:600}.minor{font-size:18px;fill:#516672}.small{font-size:16px;fill:#627681}.blue{fill:none;stroke:#4b7fa4;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-b)}.teal{fill:none;stroke:#3b877a;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-t)}.pink{fill:none;stroke:#aa6484;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-p)}.gold{fill:none;stroke:#c38d47;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-g)}.lead{fill:none;stroke:#708692;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}</style>
+<rect width="1000" height="560" fill="#ffffff"/>
+<text x="53" y="70" class="major">目标片段</text>
+<path d="M63 180H244" stroke="#b16a86" stroke-width="18" stroke-linecap="round"/>
+<path d="M66 180h26m124 0h25" stroke="#d6a0b2" stroke-width="7"/>
+<text x="152" y="219" class="minor" text-anchor="middle">含待研究序列</text>
+<circle cx="423" cy="188" r="77" fill="none" stroke="#4b7fa4" stroke-width="14" stroke-dasharray="370 115" transform="rotate(-34 423 188)"/>
+<text x="421" y="188" class="label" text-anchor="middle">载体</text>
+<circle cx="488" cy="144" r="8" fill="#c38d47"/><path d="M494 140L520 116" class="lead"/><text x="525" y="113" class="small">复制起点</text>
+<circle cx="358" cy="228" r="8" fill="#3b877a"/><path d="M350 231L319 255" class="lead"/><text x="298" y="281" class="small">选择标记</text>
+<path class="teal" d="M525 181H599"/>
+<circle cx="726" cy="190" r="103" fill="#f6faf9" stroke="#4b7fa4" stroke-width="15"/>
+<path d="M786 106Q820 141 828 180" fill="none" stroke="#b16a86" stroke-width="17" stroke-linecap="round"/>
+<circle cx="726" cy="190" r="32" fill="#dfeee7" stroke="#9dbfb1"/>
+<text x="726" y="196" class="label" text-anchor="middle">重组质粒</text>
+<text x="726" y="320" class="minor" text-anchor="middle">插入片段与载体连接</text>
+<path class="teal" d="M730 338V388"/>
+<path d="M624 407q101-42 203 0v82q-99 43-203 0Z" fill="#e5f1ed" stroke="#5e9c8a" stroke-width="3"/>
+<circle cx="725" cy="448" r="31" fill="none" stroke="#4b7fa4" stroke-width="5"/>
+<text x="725" y="522" class="minor" text-anchor="middle">宿主复制后仍需筛选与序列验证</text>
+<path class="teal" d="M259 181H324"/>
+<text x="514" y="416" class="minor" text-anchor="end">导入宿主</text>
+<text x="94" y="425" class="small">DNA 克隆 ≠ 蛋白表达</text>
+</svg>

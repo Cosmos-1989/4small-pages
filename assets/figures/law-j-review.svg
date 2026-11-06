@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 650" role="img" aria-labelledby="title desc"><title id="title">全国人大常委会备案审查中的建议与纠正</title><desc id="desc">公民和组织依法提出审查建议，由常委会工作机构按程序研究，并由有关专门委员会参与；与制定机关沟通纠正及必要时依法提请常委会审议的主体和条件不同。</desc><defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M1 1L7 4.5L1 8" fill="none" stroke="#637d87" stroke-width="1.3"/></marker></defs>
+<style>text{font-family:"Songti SC","STSong","SimSun",serif;fill:#29434c} .head{font-size:29px;font-weight:600}.label{font-size:24px}.small{font-size:21px;fill:#607780}.line{fill:none;stroke:#637d87;stroke-width:2;marker-end:url(#arrow)}.box{stroke-width:1.5;rx:13}</style><rect width="1080" height="650" fill="#fff"/>
+    <text x="45" y="43" class="small">全国人大常委会备案审查的部分关系</text>
+    <rect class="box" x="45" y="94" width="250" height="184" fill="#edf5f6" stroke="#98b6bd"/>
+    <text x="170" y="143" class="head" text-anchor="middle">公民、组织</text><text x="170" y="190" class="label" text-anchor="middle">依法提出审查建议</text><text x="170" y="231" class="small" text-anchor="middle">指明规范与相关问题</text>
+    <rect class="box" x="415" y="94" width="250" height="184" fill="#f2f5ec" stroke="#adbd9d"/>
+    <text x="540" y="140" class="label" text-anchor="middle">常委会工作机构</text><text x="540" y="183" class="label" text-anchor="middle">审查、研究</text><text x="540" y="224" class="small" text-anchor="middle">有关专委会按程序参与</text>
+    <rect class="box" x="785" y="94" width="250" height="184" fill="#f8f2e7" stroke="#cdbb96"/>
+    <text x="910" y="143" class="head" text-anchor="middle">制定机关</text><text x="910" y="190" class="label" text-anchor="middle">沟通后依法</text><text x="910" y="231" class="label" text-anchor="middle">修改、废止或说明</text>
+    <path class="line" d="M302 186H401"/><path class="line" d="M672 186H771"/>
+    <text x="353" y="167" class="small" text-anchor="middle">依法研究</text><text x="723" y="167" class="small" text-anchor="middle">提出意见</text>
+    <path class="line" d="M910 280V430H724"/>
+    <text x="792" y="322" class="small" text-anchor="middle">未按审查意见纠正等</text><text x="792" y="352" class="small" text-anchor="middle">符合法定条件的情形</text>
+    <rect class="box" x="305" y="379" width="405" height="124" fill="#f1eef6" stroke="#b8a8c6"/>
+    <text x="508" y="423" class="head" text-anchor="middle">依法提请常委会会议</text><text x="508" y="467" class="label" text-anchor="middle">审议作出相应决定</text>
+    <text x="540" y="551" class="label" text-anchor="middle">审查、提出意见与作出撤销等决定，须区分主体和法定程序。</text>
+    <text x="45" y="615" class="small">程序关系示意；省略部分步骤，不表示收到建议即启动审查或相关规范立即失效。</text></svg>

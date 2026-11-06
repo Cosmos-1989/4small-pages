@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">环境适宜性与扩散可达性共同制约物种分布</title><desc id="desc">环境适宜区和物种能够到达的区域仅部分重合；重合是定居的必要条件之一，现实分布仍受种间作用与历史过程影响。</desc>
+<defs>
+  <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#fbfcf7"/><stop offset="1" stop-color="#f5f7f9"/></linearGradient>
+  <marker id="a1" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4 0 8Z" fill="#6b8d7c"/></marker>
+  <marker id="a2" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4 0 8Z" fill="#68859e"/></marker>
+</defs>
+<style>text{font-family:'Songti SC',STSong,SimSun,'Noto Serif CJK SC',serif;fill:#283e48}.head{font-size:24px;font-weight:600}.label{font-size:20px}.small{font-size:19px;fill:#536871}.note{font-size:20px;fill:#4b606a}.lead1{fill:none;stroke:#6b8d7c;stroke-width:2.5;stroke-linecap:round;marker-end:url(#a1)}.lead2{fill:none;stroke:#68859e;stroke-width:2.5;stroke-linecap:round;marker-end:url(#a2)}</style>
+<rect width="1000" height="560" fill="url(#paper)"/>
+<path d="M26 442q125-43 250-18t238-25t232 21t228-12" fill="none" stroke="#d4dfd3" stroke-width="2"/>
+<path d="M28 457q137-14 236 5t234-12t223 8t253-8" fill="none" stroke="#e1e8df" stroke-width="2"/>
+<ellipse cx="406" cy="288" rx="268" ry="162" fill="#c8e3ce" fill-opacity=".82" stroke="#5e9674" stroke-width="2.7"/>
+<ellipse cx="594" cy="288" rx="268" ry="162" fill="#c9dce7" fill-opacity=".69" stroke="#638ba2" stroke-width="2.7"/>
+<path d="M504 178q-17 12-24 35q-31 29-31 77q2 65 50 113" fill="none" stroke="#7ea78b" stroke-width="2" stroke-dasharray="4 6" opacity=".75"/>
+<path d="M496 178q17 12 24 35q31 29 31 77q-2 65-50 113" fill="none" stroke="#82a7b8" stroke-width="2" stroke-dasharray="4 6" opacity=".8"/>
+<text x="277" y="242" class="head" text-anchor="middle">环境适宜</text>
+<text x="277" y="270" class="small" text-anchor="middle">气候 · 土壤 · 生境</text>
+<text x="728" y="242" class="head" text-anchor="middle">能够到达</text>
+<text x="728" y="270" class="small" text-anchor="middle">扩散能力 · 地形障碍</text>
+<circle cx="500" cy="283" r="52" fill="#f5f7e5" stroke="#76a090" stroke-width="2.2"/>
+<path d="M499 320v-42m0 20-19-17m19 8 19-20" stroke="#517f64" stroke-width="4" stroke-linecap="round" fill="none"/>
+<path d="M476 281q-14-24 10-28q7-26 32-11q22-7 23 14q18 14 0 26Z" fill="#9fcbaa" stroke="#558f6e" stroke-width="2"/>
+<text x="500" y="374" class="head" text-anchor="middle">可能定居</text>
+<path class="lead1" d="M130 93Q160 124 222 148"/>
+<text x="62" y="70" class="label">环境条件</text>
+<text x="62" y="94" class="small">也随时间变化</text>
+<path class="lead2" d="M879 94Q849 124 779 150"/>
+<text x="762" y="70" class="label">演化与迁移历史</text>
+<text x="762" y="94" class="small">塑造区域物种库</text>
+<path d="M160 479H840" stroke="#c8d4d0" stroke-width="1.7"/>
+<text x="500" y="509" class="note" text-anchor="middle">现实分布还受种间作用、人类活动与扰动影响</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="540" viewBox="0 0 860 540" role="img" aria-labelledby="privacy-title privacy-desc">
+  <title id="privacy-title">信息流动的情境边界</title>
+  <desc id="privacy-desc">上方示例中学生为申请学习支持，向教师提供必要信息；下方示例中同一信息从教师流向公开平台，接收者、用途和范围发生改变，必须重新判断其依据与必要性。本图是伦理分析的概念示例，不是数据图或对个案的法律裁决。</desc>
+  <defs>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 9 5 1 9" fill="none" stroke="#376d85" stroke-width="1.6" stroke-linejoin="round"/></marker>
+    <marker id="arrow-ochre" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 9 5 1 9" fill="none" stroke="#9a7140" stroke-width="1.6" stroke-linejoin="round"/></marker>
+    <style>
+      text {font-family:"Songti SC","STSong","SimSun",serif;fill:#253b43;font-size:21px;}
+      .heading {font-size:24px;font-weight:600;}
+      .small {font-size:18px;fill:#52666d;}
+      .node {font-size:24px;}
+    </style>
+  </defs>
+  <rect width="860" height="540" fill="#fff"/>
+  <rect x="24" y="20" width="812" height="224" rx="14" fill="#f2f8fa" stroke="#d6e5eb"/>
+  <text class="heading" x="52" y="57">特定关系内的告知</text>
+  <circle cx="135" cy="133" r="42" fill="#e0eef3" stroke="#376d85" stroke-width="1.8"/>
+  <text class="node" text-anchor="middle" x="135" y="141">学生</text>
+  <circle cx="725" cy="133" r="42" fill="#e0eef3" stroke="#376d85" stroke-width="1.8"/>
+  <text class="node" text-anchor="middle" x="725" y="141">教师</text>
+  <path d="M183 133 H673" fill="none" stroke="#376d85" stroke-width="2.2" marker-end="url(#arrow-blue)"/>
+  <text text-anchor="middle" x="430" y="111">完成支持任务所需的信息</text>
+  <text text-anchor="middle" class="small" x="430" y="169">目的：申请学习支持</text>
+  <text text-anchor="middle" class="small" x="430" y="213">限定接收者与用途，并保护信息安全</text>
+  <rect x="24" y="266" width="812" height="224" rx="14" fill="#fcf8f0" stroke="#eadfcd"/>
+  <text class="heading" x="52" y="303">跨情境的再传播</text>
+  <circle cx="135" cy="378" r="42" fill="#f4eadb" stroke="#9a7140" stroke-width="1.8"/>
+  <text class="node" text-anchor="middle" x="135" y="386">教师</text>
+  <rect x="673" y="338" width="112" height="80" rx="11" fill="#f4eadb" stroke="#9a7140" stroke-width="1.8"/>
+  <text class="node" text-anchor="middle" x="729" y="373">公开</text>
+  <text class="node" text-anchor="middle" x="729" y="403">平台</text>
+  <path d="M183 378 H663" fill="none" stroke="#9a7140" stroke-width="2.2" stroke-dasharray="8 6" marker-end="url(#arrow-ochre)"/>
+  <text text-anchor="middle" x="430" y="354">同一信息，新的传播范围</text>
+  <text text-anchor="middle" class="small" x="430" y="414">目的与接收者改变：需重新判断</text>
+  <text text-anchor="middle" class="small" x="430" y="460">原来的告知，不自动授权公开、转发或其他用途</text>
+  <text text-anchor="middle" class="small" x="430" y="522">判断要素：信息内容 · 接收者 · 目的 · 传播条件与依据</text>
+</svg>

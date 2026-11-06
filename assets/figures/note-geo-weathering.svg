@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620" role="img" aria-labelledby="title desc">
+<title id="title">裂隙风化与碎屑迁移的边界</title><desc id="desc">左右两个岩面分别示意冻融裂隙扩张与含二氧化碳水的水岩反应，坡下碎屑被移动后才是侵蚀搬运。</desc>
+<defs>
+<marker id="arrow-blue" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#4d8cab"/></marker>
+<marker id="arrow-rust" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#c46f58"/></marker>
+<marker id="arrow-ink" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#4b6570"/></marker>
+<marker id="arrow-green" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#6a967c"/></marker>
+<linearGradient id="magma" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f1c386"/><stop offset="1" stop-color="#d8745c"/></linearGradient>
+<linearGradient id="sea" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#e7f3f5"/><stop offset="1" stop-color="#c8e3e9"/></linearGradient>
+<pattern id="granite" width="45" height="45" patternUnits="userSpaceOnUse"><rect width="45" height="45" fill="#dbd1c5"/><path d="M6 13l9-5 6 8-8 8-8-5zm24 11 7-5 5 7-8 7-7-4z" fill="#a5968a"/><path d="M22 35l4-7 6 4-3 7zM2 36l8-4 4 7-9 3z" fill="#6f7881"/><circle cx="36" cy="8" r="3" fill="#eee8df"/></pattern>
+<pattern id="grains" width="52" height="40" patternUnits="userSpaceOnUse"><rect width="52" height="40" fill="#e6d5ba"/><ellipse cx="10" cy="14" rx="7" ry="4" fill="#b98e69"/><ellipse cx="38" cy="26" rx="9" ry="5" fill="#c8a579"/><circle cx="27" cy="9" r="4" fill="#a87e64"/></pattern>
+</defs><rect width="1100" height="620" fill="#fff"/>
+<g font-family="Songti SC,STSong,SimSun,Noto Serif CJK SC,serif" fill="#283e47" stroke-linecap="round" stroke-linejoin="round">
+<path d="M0 472Q211 448 372 474T739 473Q921 475 1100 543V620H0Z" fill="#e4d3b8"/>
+<path d="M73 468L101 150 258 123 386 185 410 464Z" fill="#bdafa0" stroke="#776e69" stroke-width="3"/>
+<path d="M101 225L235 248 386 218M80 349L215 339 401 366M260 129l-23 117 17 91-39 131" fill="none" stroke="#776e69" stroke-width="5"/>
+<path d="M224 242l16 58-14 50-18-11 14-63Z" fill="#b4d7e6" stroke="#6196a8" stroke-width="2.5"/>
+<path d="M215 199v30M248 204v25" fill="none" stroke="#4d8cab" stroke-width="4" marker-end="url(#arrow-blue)"/>
+<path d="M152 281H85" fill="none" stroke="#c46f58" stroke-width="4" marker-end="url(#arrow-rust)"/>
+<path d="M301 295h65" fill="none" stroke="#c46f58" stroke-width="4" marker-end="url(#arrow-rust)"/>
+<text x="51" y="86" font-size="26" fill="#668a95">物理风化：裂隙中的冻融</text>
+<path d="M280 318L419 280H467" fill="none" stroke="#6c7d7b" stroke-width="1.5"/><text x="397" y="270" font-size="23">原地破碎</text>
+<path d="M522 463L560 170 713 128 835 185 851 469Z" fill="#d3c3a5" stroke="#807766" stroke-width="3"/>
+<path d="M557 235Q688 256 832 217M553 348Q693 357 842 333M671 142q-31 67-10 110t-14 116" fill="none" stroke="#8e8068" stroke-width="5"/>
+<path d="M642 143C635 175 641 207 650 232M702 149C687 208 698 253 711 285" fill="none" stroke="#4d8cab" stroke-width="4" marker-end="url(#arrow-blue)"/>
+<path d="M648 267Q696 279 754 269M660 296Q707 311 766 299" fill="none" stroke="#97ae9d" stroke-width="12" opacity=".8"/>
+<text x="537" y="86" font-size="26" fill="#668a95">化学风化：水与矿物反应</text>
+<path d="M736 294L879 276H968" fill="none" stroke="#6c7d7b" stroke-width="1.5"/><text x="854" y="265" font-size="23">矿物改变</text>
+<path d="M799 468l64 19 33 28-67 7-39-23Z" fill="#bca587" stroke="#8c7967" stroke-width="2"/>
+<path d="M916 499l39 13 49 29-54 11-59-27Z" fill="#ba9c77" stroke="#8c7967" stroke-width="2"/>
+<path d="M815 533Q882 557 1008 573" fill="none" stroke="#4b6570" stroke-width="4" marker-end="url(#arrow-ink)"/>
+<text x="722" y="608" font-size="23">离开原地 → 侵蚀与搬运</text>
+<path d="M485 125V530" stroke="#e3e5df" stroke-width="2" stroke-dasharray="6 9"/>
+</g>
+</svg>

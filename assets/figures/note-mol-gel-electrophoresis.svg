@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">线性 DNA 片段在凝胶中的相对迁移</title><desc id="desc">加样孔靠近负极；DNA 向正极移动，在相同实验条件下较短线性片段通常迁移更远。</desc>
+<defs>
+ <marker id="arr-b" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#4b7fa4"/></marker>
+ <marker id="arr-t" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#3b877a"/></marker>
+ <marker id="arr-p" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#aa6484"/></marker>
+ <marker id="arr-g" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#c38d47"/></marker>
+</defs>
+<style>text{font-family:'Songti SC',STSong,SimSun,'Noto Serif CJK SC',serif;fill:#263847}.major{font-size:25px;font-weight:600}.label{font-size:21px;font-weight:600}.minor{font-size:18px;fill:#516672}.small{font-size:16px;fill:#627681}.blue{fill:none;stroke:#4b7fa4;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-b)}.teal{fill:none;stroke:#3b877a;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-t)}.pink{fill:none;stroke:#aa6484;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-p)}.gold{fill:none;stroke:#c38d47;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-g)}.lead{fill:none;stroke:#708692;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}</style>
+<rect width="1000" height="560" fill="#ffffff"/>
+<text x="74" y="74" class="major">DNA 凝胶电泳</text>
+<rect x="202" y="96" width="599" height="400" rx="18" fill="#eff5f7" stroke="#b7cdd2" stroke-width="3"/>
+<g fill="#d8e7ea" stroke="#a9c4cb" stroke-width="1.5"><rect x="248" y="116" width="95" height="23" rx="4"/><rect x="420" y="116" width="95" height="23" rx="4"/><rect x="593" y="116" width="95" height="23" rx="4"/></g>
+<text x="293" y="83" class="minor" text-anchor="middle">长度标准</text><text x="467" y="83" class="minor" text-anchor="middle">样品甲</text><text x="641" y="83" class="minor" text-anchor="middle">样品乙</text>
+<g stroke="#4b7fa4" stroke-width="13" stroke-linecap="round"><path d="M259 190h72M259 256h72M259 332h72M259 430h72"/><path d="M434 255h72M434 331h72"/><path d="M606 190h72M606 430h72"/></g>
+<path class="teal" d="M850 171V423"/>
+<text x="848" y="140" class="label" text-anchor="middle">负极 −</text><text x="849" y="467" class="label" text-anchor="middle">正极 ＋</text>
+<text x="72" y="191" class="minor">较长</text><path class="lead" d="M131 187H236"/>
+<text x="72" y="433" class="minor">较短</text><path class="lead" d="M130 429H235"/>
+<text x="501" y="533" class="small" text-anchor="middle">相同位置的条带不保证 DNA 序列相同</text>
+</svg>

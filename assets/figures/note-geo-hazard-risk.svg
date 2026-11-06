@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">自然灾害风险的四个分析环节</title><desc id="desc">山坡滑动这一危险过程可能影响坡脚建筑；暴露、建筑脆弱性以及监测和撤离能力共同决定可能后果。</desc>
+<defs>
+  <marker id="arrow-blue" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5 0 9Z" fill="#3888a1"/></marker>
+  <marker id="arrow-green" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5 0 9Z" fill="#448769"/></marker>
+  <marker id="arrow-orange" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5 0 9Z" fill="#d37e55"/></marker>
+  <marker id="arrow-slate" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5 0 9Z" fill="#657784"/></marker>
+  <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#f5faf9"/><stop offset="1" stop-color="#fff"/></linearGradient>
+</defs>
+<style>text{font-family:'Songti SC',STSong,SimSun,'Noto Serif CJK SC',serif;fill:#263943}.label{font-size:22px;font-weight:600}.minor{font-size:18px;fill:#50666e}.small{font-size:16px;fill:#5c7074}.leader{fill:none;stroke:#627681;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.water{fill:none;stroke:#3888a1;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow-blue)}.green{fill:none;stroke:#448769;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow-green)}.energy{fill:none;stroke:#d37e55;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow-orange)}.slate{fill:none;stroke:#657784;stroke-width:3.3;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow-slate)}</style>
+<rect width="1000" height="560" fill="url(#sky)"/>
+<path d="M55 364Q176 333 247 166Q285 103 360 154Q418 234 493 304Q532 327 602 338Q736 354 936 355V487H55Z" fill="#e4e4d8" stroke="#9b9d8e" stroke-width="2.5"/>
+<path d="M55 487H936" stroke="#c7cec5" stroke-width="2"/>
+<path d="M215 297Q312 241 385 288Q445 318 515 347" fill="none" stroke="#b76d57" stroke-width="16" stroke-linecap="round" stroke-dasharray="22 13"/>
+<path d="M446 304L505 344" stroke="#b76d57" stroke-width="5" marker-end="url(#arrow-orange)"/>
+<path d="M644 349V269h92v80M654 268l35-38 38 38" fill="#f0eee5" stroke="#657984" stroke-width="3" stroke-linejoin="round"/>
+<path d="M780 352v-62h80v62M775 290l44-33 46 33" fill="#e7ece9" stroke="#657984" stroke-width="3" stroke-linejoin="round"/>
+<path d="M696 315h20m95 4h20" stroke="#b68166" stroke-width="4"/>
+<path d="M586 332v-45m0 0l-12 17m12-17 13 17" stroke="#43876a" stroke-width="4" fill="none" stroke-linecap="round"/>
+<circle cx="586" cy="273" r="12" fill="#b7d9c8" stroke="#43876a" stroke-width="2"/>
+<path d="M155 225l-61-56H66M691 229V135h-89M810 255l71-75h58M587 265l-56-106H458" class="leader"/>
+<circle cx="145" cy="225" r="4" fill="#b76d57"/><circle cx="690" cy="229" r="4" fill="#657984"/><circle cx="810" cy="255" r="4" fill="#657984"/><circle cx="587" cy="265" r="4" fill="#43876a"/>
+<text x="62" y="117" class="label">危险过程</text><text x="62" y="143" class="minor">坡体可能滑动</text>
+<text x="593" y="102" class="label">暴露</text><text x="593" y="129" class="minor">建筑位于影响区</text>
+<text x="745" y="126" class="label">脆弱性</text><text x="745" y="153" class="minor">结构与地基条件</text>
+<text x="320" y="118" class="label">应对能力</text><text x="320" y="145" class="minor">监测、预警与撤离</text>
+<rect x="183" y="501" width="634" height="40" rx="20" fill="#f2f5f2" stroke="#c4d2ca"/>
+<text x="500" y="528" class="minor" text-anchor="middle">风险评估还须明确事件情景、时段与空间尺度</text>
+</svg>

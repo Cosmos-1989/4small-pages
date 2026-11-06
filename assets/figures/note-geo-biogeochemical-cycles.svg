@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">陆地与海洋表层的碳储库和交换</title><desc id="desc">大气二氧化碳、陆地植被、土壤有机碳和海洋表层溶解碳之间有光合作用、呼吸、枯落物输入、分解与气体交换。</desc>
+<defs>
+  <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#e9f4f5"/><stop offset="1" stop-color="#fffdf7"/></linearGradient>
+  <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#9ed3d7"/><stop offset="1" stop-color="#4f99ad"/></linearGradient>
+  <linearGradient id="land" x2="0" y2="1"><stop stop-color="#e2e5c9"/><stop offset="1" stop-color="#c6af8e"/></linearGradient>
+  <marker id="green-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4 0 8Z" fill="#40876a"/></marker>
+  <marker id="orange-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4 0 8Z" fill="#c67854"/></marker>
+  <marker id="blue-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4 0 8Z" fill="#3985a0"/></marker>
+</defs>
+<style>text{font-family:'Songti SC',STSong,SimSun,'Noto Serif CJK SC',serif;fill:#253d47}.head{font-size:24px;font-weight:600}.label{font-size:20px}.minor{font-size:18px;fill:#4d6570}.g{fill:none;stroke:#40876a;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#green-arrow)}.o{fill:none;stroke:#c67854;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#orange-arrow)}.b{fill:none;stroke:#3985a0;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#blue-arrow)}</style>
+<rect width="1000" height="560" fill="url(#sky)"/>
+<path d="M0 170Q168 157 315 172T645 164T1000 170" fill="none" stroke="#c8e1e3" stroke-width="2"/>
+<rect x="372" y="57" width="256" height="88" rx="26" fill="#fffefa" stroke="#83b2ba" stroke-width="2.2"/>
+<text x="500" y="95" class="head" text-anchor="middle">大气 CO₂</text>
+<text x="500" y="124" class="minor" text-anchor="middle">碳储库</text>
+<path d="M0 352Q185 338 364 353T650 346V560H0Z" fill="url(#land)" stroke="#b3a88b" stroke-width="2"/>
+<path d="M650 345Q725 337 802 346T1000 342V560H650Z" fill="url(#sea)" stroke="#4f9cad" stroke-width="2"/>
+<path d="M675 388q52-9 108 0t116 0t100 0M680 429q60 10 109 0t103 1t107-4M704 479q56-8 110 0t105 0" fill="none" stroke="#d8eeee" stroke-width="2" opacity=".75"/>
+<path d="M650 346V559" stroke="#9aab98" stroke-width="2.5"/>
+<path d="M0 391q111 11 229 0t228 1t193-5" fill="none" stroke="#b9ad8f" stroke-width="1.5" opacity=".8"/>
+<path d="M0 460q120-8 210 0t204-2t236 3" fill="none" stroke="#ab9a80" stroke-width="1.4" opacity=".6"/>
+<path d="M229 356v-91" stroke="#716a51" stroke-width="15" stroke-linecap="round"/>
+<path d="M227 304l-48-43m48 29 54-39" fill="none" stroke="#716a51" stroke-width="8" stroke-linecap="round"/>
+<path d="M126 261q-30-41 6-64q5-48 54-48q35-44 77-14q56-15 70 33q53 20 26 65q10 52-43 61H168q-42-3-42-33Z" fill="#a6d1a9" stroke="#4d8c68" stroke-width="2.4"/>
+<path d="M156 206q39-22 62 3m44-37q43-3 65 31m-158 50q35-11 62 3" fill="none" stroke="#e0f0dc" stroke-width="3" opacity=".8"/>
+<text x="238" y="330" class="head" text-anchor="middle">陆地植被</text>
+<text x="238" y="381" class="minor" text-anchor="middle">有机碳</text>
+<path class="g" d="M404 146Q312 167 281 204"/>
+<text x="282" y="120" class="label" text-anchor="middle">光合作用</text>
+<path class="o" d="M345 224Q385 166 428 146"/>
+<text x="399" y="205" class="minor">呼吸</text>
+<path class="o" d="M293 307Q373 332 399 418"/>
+<text x="381" y="342" class="minor">枯落物输入</text>
+<ellipse cx="366" cy="469" rx="150" ry="40" fill="#f4eedb" opacity=".9" stroke="#ad977c" stroke-width="2"/>
+<text x="366" y="470" class="head" text-anchor="middle">土壤有机碳</text>
+<path class="o" d="M511 445Q616 331 549 148"/>
+<text x="532" y="298" class="minor">分解与土壤呼吸</text>
+<path class="b" d="M724 149Q711 216 724 312"/>
+<path class="b" d="M825 310Q841 221 824 148"/>
+<text x="778" y="225" class="label" text-anchor="middle">气体交换</text>
+<text x="825" y="382" class="head" text-anchor="middle">海洋表层</text>
+<text x="825" y="411" class="label" text-anchor="middle">溶解无机碳</text>
+<path d="M817 448q-17 27-2 49m-44-21q19 17 36 1m49-5q19 18 38-1" fill="none" stroke="#d1e8e9" stroke-width="4" stroke-linecap="round"/>
+</svg>

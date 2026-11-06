@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">流域水资源的补给、取用与回归</title><desc id="desc">山地降水与上游来水补给河流和含水层，农业及城镇取水，部分回归水进入河道，河道还承载下游和生态需水。</desc>
+<defs>
+  <marker id="arrow-blue" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5 0 9Z" fill="#3888a1"/></marker>
+  <marker id="arrow-green" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5 0 9Z" fill="#448769"/></marker>
+  <marker id="arrow-orange" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5 0 9Z" fill="#d37e55"/></marker>
+  <marker id="arrow-slate" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5 0 9Z" fill="#657784"/></marker>
+  <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#f5faf9"/><stop offset="1" stop-color="#fff"/></linearGradient>
+</defs>
+<style>text{font-family:'Songti SC',STSong,SimSun,'Noto Serif CJK SC',serif;fill:#263943}.label{font-size:22px;font-weight:600}.minor{font-size:18px;fill:#50666e}.small{font-size:16px;fill:#5c7074}.leader{fill:none;stroke:#627681;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.water{fill:none;stroke:#3888a1;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow-blue)}.green{fill:none;stroke:#448769;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow-green)}.energy{fill:none;stroke:#d37e55;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow-orange)}.slate{fill:none;stroke:#657784;stroke-width:3.3;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow-slate)}</style>
+<rect width="1000" height="560" fill="url(#sky)"/>
+<path d="M55 272Q140 227 219 193L320 273Q371 258 427 279Q490 246 555 272Q647 234 736 275Q838 258 944 291V476H55Z" fill="#e5e7d6" stroke="#8d9c85" stroke-width="2.5"/>
+<path d="M55 476H944V523H55Z" fill="#dce5e2"/>
+<path d="M64 347Q244 325 351 351Q446 379 554 347Q670 321 936 361" fill="none" stroke="#77b3c2" stroke-width="31" stroke-linecap="round"/>
+<path d="M64 347Q244 325 351 351Q446 379 554 347Q670 321 936 361" fill="none" stroke="#3b8ca7" stroke-width="3"/>
+<path d="M270 340Q303 312 327 317L348 348" fill="#9ccbd0" stroke="#458fa5" stroke-width="2"/>
+<path d="M86 279l115-68 109 76" fill="none" stroke="#78937e" stroke-width="3"/>
+<path d="M158 176q55-47 98 8" fill="none" stroke="#c6d6d4" stroke-width="14" stroke-linecap="round"/>
+<g fill="#9ac4d1"><path d="M147 208l-4 13 4 5 4-5Z M183 199l-4 13 4 5 4-5Z M225 203l-4 13 4 5 4-5Z"/></g>
+<path d="M378 292v50m31-63v62m34-48v52m34-48v52" stroke="#739866" stroke-width="6"/>
+<path d="M370 290q21-23 42 0m4-10q22-25 47 0" fill="none" stroke="#91af76" stroke-width="13" stroke-linecap="round"/>
+<path d="M648 319v-78h45v78m10 0V215h65v104m10 0v-58h40v58" fill="#e3e9e7" stroke="#7c8d91" stroke-width="2.5"/>
+<path d="M638 314H831" stroke="#63767d" stroke-width="2.5"/>
+<path class="water" d="M389 343Q397 252 462 235"/><path class="water" d="M681 347Q688 265 718 252"/>
+<path class="water" d="M760 319Q754 353 810 358" stroke-dasharray="7 6"/>
+<path class="water" d="M826 368H908"/>
+<path class="water" d="M153 401Q340 455 567 423" stroke-dasharray="8 7"/>
+<text x="152" y="120" class="label">降水与上游来水</text>
+<text x="437" y="213" class="minor">农业取水</text>
+<text x="700" y="191" class="minor">城镇取水</text>
+<text x="836" y="295" class="minor">回归水</text>
+<text x="710" y="431" class="minor">河道下游与生态需水</text>
+<text x="277" y="465" class="minor">地下水补给与流动</text>
+<text x="500" y="544" class="small" text-anchor="middle">取水和回归的大小、时序与水质均需实测</text>
+</svg>

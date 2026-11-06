@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1115 322" role="img">
+<title>物品与文明关系的类型</title>
+<desc>表格列出三种物品与文明关系的类型、含义和事例。</desc>
+<rect width="100%" height="100%" fill="white"/>
+<g fill="none" stroke="#667477" stroke-width="1.3">
+<path d="M0 0V322"/>
+<path d="M85 0V322"/>
+<path d="M465 0V322"/>
+<path d="M1115 0V322"/>
+<path d="M0 0H1115"/>
+<path d="M0 52H1115"/>
+<path d="M0 142H1115"/>
+<path d="M0 232H1115"/>
+<path d="M0 322H1115"/>
+</g>
+<g fill="#202927" font-family="Songti SC, SimSun, serif" font-size="22">
+<text x="42.5" y="26.0" text-anchor="middle" dominant-baseline="middle">类型</text>
+<text x="275.0" y="26.0" text-anchor="middle" dominant-baseline="middle">含义</text>
+<text x="790.0" y="26.0" text-anchor="middle" dominant-baseline="middle">事例</text>
+<text x="42.5" y="97.0" text-anchor="middle" dominant-baseline="middle">一</text>
+<text x="275.0" y="82.0" text-anchor="middle" dominant-baseline="middle">一件物品的普遍传播，</text>
+<text x="275.0" y="112.0" text-anchor="middle" dominant-baseline="middle">影响众多人的生活</text>
+<text x="790.0" y="82.0" text-anchor="middle" dominant-baseline="middle">美洲大陆的土豆、辣椒等作物传入欧亚大陆，</text>
+<text x="790.0" y="112.0" text-anchor="middle" dominant-baseline="middle">引发生活方式改变</text>
+<text x="42.5" y="187.0" text-anchor="middle" dominant-baseline="middle">二</text>
+<text x="275.0" y="187.0" text-anchor="middle" dominant-baseline="middle">一批新物品应社会变革而生</text>
+<text x="790.0" y="172.0" text-anchor="middle" dominant-baseline="middle">地铁等公共交通工具适应了工业化时代</text>
+<text x="790.0" y="202.0" text-anchor="middle" dominant-baseline="middle">城市扩张的需要</text>
+<text x="42.5" y="277.0" text-anchor="middle" dominant-baseline="middle">三</text>
+<text x="275.0" y="262.0" text-anchor="middle" dominant-baseline="middle">关键物品的出现催生出</text>
+<text x="275.0" y="292.0" text-anchor="middle" dominant-baseline="middle">全新的物品体系</text>
+<text x="790.0" y="262.0" text-anchor="middle" dominant-baseline="middle">内燃机、电子计算机等关键物品诞生，</text>
+<text x="790.0" y="292.0" text-anchor="middle" dominant-baseline="middle">辐射出以其为中心的一个个新物品体系</text>
+</g></svg>

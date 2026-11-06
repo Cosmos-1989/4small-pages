@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">引物界定片段的温度循环扩增</title><desc id="desc">双链模板先变性，两条引物分别与不同模板链退火，然后聚合酶自引物三撇端以五撇到三撇方向延伸。</desc>
+<defs>
+ <marker id="arr-b" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#4b7fa4"/></marker>
+ <marker id="arr-t" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#3b877a"/></marker>
+ <marker id="arr-p" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#aa6484"/></marker>
+ <marker id="arr-g" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#c38d47"/></marker>
+</defs>
+<style>text{font-family:'Songti SC',STSong,SimSun,'Noto Serif CJK SC',serif;fill:#263847}.major{font-size:25px;font-weight:600}.label{font-size:21px;font-weight:600}.minor{font-size:18px;fill:#516672}.small{font-size:16px;fill:#627681}.blue{fill:none;stroke:#4b7fa4;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-b)}.teal{fill:none;stroke:#3b877a;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-t)}.pink{fill:none;stroke:#aa6484;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-p)}.gold{fill:none;stroke:#c38d47;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-g)}.lead{fill:none;stroke:#708692;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}</style>
+<rect width="1000" height="560" fill="#ffffff"/>
+<text x="82" y="78" class="major">Ⅰ 变性</text><text x="372" y="78" class="major">Ⅱ 退火</text><text x="675" y="78" class="major">Ⅲ 延伸</text>
+<path d="M55 116H305V442H55ZM355 116H643V442H355ZM693 116H945V442H693Z" fill="#f8fbfb" stroke="#d9e5e6" stroke-width="2"/>
+<text x="75" y="167" class="minor">模板双链</text><path d="M84 230H277M84 274H277" stroke="#4b7fa4" stroke-width="5" stroke-linecap="round"/>
+<g stroke="#a9bec8" stroke-width="2"><path d="M115 230v44M144 230v44M173 230v44M202 230v44M231 230v44M260 230v44"/></g>
+<text x="83" y="217" class="small">5′</text><text x="267" y="217" class="small">3′</text><text x="83" y="303" class="small">3′</text><text x="267" y="303" class="small">5′</text>
+<path class="teal" d="M283 251Q319 251 337 251"/>
+<text x="379" y="166" class="minor">单链模板</text>
+<path d="M384 220H610M384 322H610" stroke="#4b7fa4" stroke-width="5" stroke-linecap="round"/>
+<text x="382" y="207" class="small">5′</text><text x="594" y="207" class="small">3′</text>
+<text x="382" y="350" class="small">3′</text><text x="594" y="350" class="small">5′</text>
+<path d="M532 238H601M391 303H459" stroke="#b16a86" stroke-width="9" stroke-linecap="round"/>
+<text x="542" y="266" class="small">3′ ← 5′</text><text x="388" y="292" class="small">5′ → 3′</text>
+<text x="499" y="403" class="minor" text-anchor="middle">引物 3′ 端朝向目标区</text>
+<path class="teal" d="M647 251H681"/>
+<text x="715" y="166" class="minor">新链合成</text>
+<path d="M724 220H913M724 322H913" stroke="#4b7fa4" stroke-width="5" stroke-linecap="round"/>
+<path d="M728 245H869M767 297H912" stroke="#b16a86" stroke-width="8" stroke-linecap="round"/>
+<path class="pink" d="M758 257H728"/><path class="pink" d="M881 285H911"/>
+<text x="818" y="404" class="minor" text-anchor="middle">聚合酶只从 3′ 端延伸</text>
+<text x="500" y="514" class="small" text-anchor="middle">反应效率会改变实际扩增量；阴性对照用于监测污染</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">热量与水分对植被外貌的共同制约</title><desc id="desc">定性坐标示意几种植被外貌在热量和可利用水分梯度中的相对位置，没有数值阈值。</desc>
+<defs>
+  <marker id="arrow-blue" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5 0 9Z" fill="#3888a1"/></marker>
+  <marker id="arrow-green" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5 0 9Z" fill="#448769"/></marker>
+  <marker id="arrow-orange" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5 0 9Z" fill="#d37e55"/></marker>
+  <marker id="arrow-slate" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5 0 9Z" fill="#657784"/></marker>
+  <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#f5faf9"/><stop offset="1" stop-color="#fff"/></linearGradient>
+</defs>
+<style>text{font-family:'Songti SC',STSong,SimSun,'Noto Serif CJK SC',serif;fill:#263943}.label{font-size:22px;font-weight:600}.minor{font-size:18px;fill:#50666e}.small{font-size:16px;fill:#5c7074}.leader{fill:none;stroke:#627681;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.water{fill:none;stroke:#3888a1;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow-blue)}.green{fill:none;stroke:#448769;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow-green)}.energy{fill:none;stroke:#d37e55;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow-orange)}.slate{fill:none;stroke:#657784;stroke-width:3.3;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow-slate)}</style>
+<rect width="1000" height="560" fill="url(#sky)"/>
+<path d="M190 445H894M190 445V82" stroke="#536772" stroke-width="2.8" fill="none"/>
+<path d="M894 445l-13-7v14ZM190 82l-7 13h14Z" fill="#536772"/>
+<text x="545" y="496" class="label" text-anchor="middle">可利用水分增加</text>
+<text x="47" y="272" class="label" transform="rotate(-90 47 272)" text-anchor="middle">热量增加</text>
+<text x="200" y="471" class="small">少</text><text x="874" y="471" class="small">多</text>
+<text x="158" y="436" class="small">低</text><text x="158" y="111" class="small">高</text>
+<path d="M252 174Q331 102 414 169Q453 223 393 254Q289 270 252 225Z" fill="#f5e6c9" stroke="#d2aa65" stroke-width="2.5" stroke-dasharray="7 6"/>
+<path d="M423 228Q531 146 631 207Q700 261 618 318Q508 350 433 296Z" fill="#e8e8bf" stroke="#afa873" stroke-width="2.5" stroke-dasharray="7 6"/>
+<path d="M650 112Q802 86 850 169Q863 245 766 253Q651 251 637 183Z" fill="#cde8d6" stroke="#6a9c7b" stroke-width="2.5" stroke-dasharray="7 6"/>
+<path d="M635 309Q750 251 839 321Q864 395 774 411Q673 415 629 365Z" fill="#d8e9de" stroke="#729a87" stroke-width="2.5" stroke-dasharray="7 6"/>
+<path d="M245 332Q329 289 412 343Q453 394 392 422Q291 438 249 394Z" fill="#e6e5d7" stroke="#9b9d91" stroke-width="2.5" stroke-dasharray="7 6"/>
+<text x="326" y="200" class="label" text-anchor="middle">干旱植被</text><text x="326" y="229" class="small" text-anchor="middle">荒漠、灌丛等</text>
+<text x="543" y="260" class="label" text-anchor="middle">草地与疏林</text><text x="543" y="288" class="small" text-anchor="middle">水分季节性较强时常见</text>
+<text x="750" y="167" class="label" text-anchor="middle">暖湿森林</text><text x="750" y="197" class="small" text-anchor="middle">多层次植被结构</text>
+<text x="744" y="353" class="label" text-anchor="middle">较冷的森林</text><text x="744" y="382" class="small" text-anchor="middle">生长季受热量限制</text>
+<text x="328" y="371" class="label" text-anchor="middle">苔原等</text><text x="328" y="400" class="small" text-anchor="middle">低温限制木本生长</text>
+<text x="733" y="531" class="small" text-anchor="middle">虚线区仅示意相对位置，非分类界线</text>
+</svg>

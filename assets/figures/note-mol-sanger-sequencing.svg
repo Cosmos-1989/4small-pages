@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">双脱氧终止片段的顺序判读</title><desc id="desc">引物延伸时掺入缺少三撇羟基的双脱氧核苷酸，使新链在不同位置终止；由短到长读出新合成链序列。</desc>
+<defs>
+ <marker id="arr-b" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#4b7fa4"/></marker>
+ <marker id="arr-t" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#3b877a"/></marker>
+ <marker id="arr-p" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#aa6484"/></marker>
+ <marker id="arr-g" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#c38d47"/></marker>
+</defs>
+<style>text{font-family:'Songti SC',STSong,SimSun,'Noto Serif CJK SC',serif;fill:#263847}.major{font-size:25px;font-weight:600}.label{font-size:21px;font-weight:600}.minor{font-size:18px;fill:#516672}.small{font-size:16px;fill:#627681}.blue{fill:none;stroke:#4b7fa4;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-b)}.teal{fill:none;stroke:#3b877a;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-t)}.pink{fill:none;stroke:#aa6484;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-p)}.gold{fill:none;stroke:#c38d47;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-g)}.lead{fill:none;stroke:#708692;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}</style>
+<rect width="1000" height="560" fill="#ffffff"/>
+<text x="58" y="68" class="major">链终止</text>
+<text x="59" y="105" class="minor">ddNTP 缺少 3′—OH</text>
+<rect x="54" y="139" width="520" height="326" rx="18" fill="#f6f9fb" stroke="#dbe5e9"/>
+<text x="88" y="172" class="minor">共同引物 5′</text>
+<g stroke="#4b7fa4" stroke-width="10" stroke-linecap="round"><path d="M92 227H275"/><path d="M92 292H327"/><path d="M92 357H379"/><path d="M92 422H431"/></g>
+<g stroke="#b16a86" stroke-width="13" stroke-linecap="round"><path d="M276 227h12"/><path d="M328 292h12"/><path d="M380 357h12"/><path d="M432 422h12"/></g>
+<text x="306" y="234" class="label">A</text><text x="356" y="299" class="label">C</text><text x="408" y="364" class="label">G</text><text x="460" y="429" class="label">T</text>
+<path class="teal" d="M574 303H648"/>
+<rect x="675" y="136" width="275" height="328" rx="18" fill="#f8f8f3" stroke="#e0e0d5"/>
+<text x="813" y="185" class="label" text-anchor="middle">按长度由短到长</text>
+<g font-family="Songti SC,STSong,SimSun,serif" font-size="34" text-anchor="middle"><text x="735" y="282" fill="#b16a86">A</text><text x="786" y="282" fill="#b16a86">C</text><text x="837" y="282" fill="#b16a86">G</text><text x="888" y="282" fill="#b16a86">T</text></g>
+<path d="M714 303H906" stroke="#627985" stroke-width="2"/>
+<text x="710" y="344" class="minor">5′</text><text x="884" y="344" class="minor">3′</text>
+<text x="813" y="405" class="minor" text-anchor="middle">读得新链方向</text>
+<text x="500" y="522" class="small" text-anchor="middle">序列 ACGT 仅为示例，不是实验读数；报告模板链时须取反向互补</text>
+</svg>

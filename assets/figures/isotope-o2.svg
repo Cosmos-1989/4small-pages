@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 350" role="img" aria-labelledby="title desc">
+  <title id="title">氧同位素标记与光合放氧来源</title>
+  <desc id="desc">平行示意的两组植物分别获得带氧十八标记的水或二氧化碳。在短时示踪、排除大量氧交换的题设条件下，水标记组释放的氧气含氧十八，二氧化碳标记组释放的氧气不含氧十八。图不推断二氧化碳中标记氧的全部去向。</desc>
+  <defs>
+    <style>
+      text{font-family:"Songti SC","STSong","SimSun","Noto Serif CJK SC",serif;fill:#263b42}
+      .head{font-size:20px;font-weight:650}.body{font-size:17px}.note{font-size:15px;fill:#52666d}
+      .water{stroke:#3e8db0;fill:none;stroke-width:3;stroke-linecap:round;marker-end:url(#blue-head)}
+      .air{stroke:#b77848;fill:none;stroke-width:3;stroke-linecap:round;marker-end:url(#orange-head)}
+      .out{stroke:#317d72;fill:none;stroke-width:3;stroke-linecap:round;marker-end:url(#green-head)}
+    </style>
+    <marker id="blue-head" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7Z" fill="#3e8db0"/></marker>
+    <marker id="orange-head" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7Z" fill="#b77848"/></marker>
+    <marker id="green-head" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7Z" fill="#317d72"/></marker>
+    <g id="plant" fill="none" stroke="#4e8c72" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 29V-37" stroke-width="3.6"/>
+      <path d="M0-17C-17-42-31-43-43-42C-37-22-24-13 0-17Z" fill="#d5e9d6" stroke-width="2"/>
+      <path d="M0-31C11-55 29-57 45-51C42-31 25-23 0-31Z" fill="#d5e9d6" stroke-width="2"/>
+      <path d="M0 29C-12 38-20 44-26 53M0 29C8 39 15 43 23 53" stroke-width="2"/>
+      <path d="M-54 29H55" stroke="#9baf96" stroke-width="1.8"/>
+    </g>
+  </defs>
+
+  <rect width="760" height="350" fill="#fffdfa"/>
+  <text x="31" y="42" class="head">甲组　水中的氧带标记</text>
+  <text x="31" y="196" class="head">乙组　二氧化碳中的氧带标记</text>
+  <path d="M27 168H731" stroke="#d9e4e0" stroke-width="1.4"/>
+
+  <text x="45" y="97" class="body" fill="#2e769a">H₂¹⁸O</text>
+  <path d="M107 93H243" class="water"/>
+  <use href="#plant" x="309" y="117"/>
+  <path d="M362 93H485" class="out"/>
+  <text x="503" y="99" class="body" fill="#246f65">¹⁸O₂</text>
+  <text x="570" y="99" class="body">释放的氧带标记</text>
+  <path d="M506 114H722" stroke="#91bcb0" stroke-width="1.4"/>
+
+  <text x="45" y="251" class="body" fill="#a86739">C¹⁸O₂</text>
+  <path d="M112 247H243" class="air"/>
+  <use href="#plant" x="309" y="271"/>
+  <path d="M362 247H485" class="out"/>
+  <text x="503" y="253" class="body">O₂</text>
+  <text x="570" y="253" class="body">释放的氧不带标记</text>
+  <path d="M506 268H722" stroke="#b5c5bf" stroke-width="1.4"/>
+  <text x="500" y="312" class="note">两组比较：光合释放的 O₂ 直接来自水。</text>
+</svg>

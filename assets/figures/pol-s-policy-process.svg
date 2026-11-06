@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 440" role="img" aria-labelledby="title desc"><title id="title">公共决策中的论证、参与与反馈</title><desc id="desc">四个分析环节以反馈连接：调查参与、方案与审查、集体决定执行、评估回应。具体法定程序依事项而异。</desc><rect width="960" height="440" fill="white"/><g font-family="'Songti SC','STSong','Noto Serif CJK SC',SimSun,serif" fill="#243c48">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10Z" fill="#6c8994"/></marker></defs>
+<rect x="75" y="50" width="350" height="120" rx="14" fill="#edf5f6" stroke="#b8cbd1"/>
+<text x="250.0" y="97" font-size="25" text-anchor="middle">事实调查与公众参与</text>
+<text x="250.0" y="136" font-size="21" text-anchor="middle">明确问题、听取受影响者意见</text>
+<rect x="535" y="50" width="350" height="120" rx="14" fill="#f5f1e8" stroke="#b8cbd1"/>
+<text x="710.0" y="97" font-size="25" text-anchor="middle">方案比较与合法性审查</text>
+<text x="710.0" y="136" font-size="21" text-anchor="middle">比较证据、成本、风险及权限</text>
+<rect x="535" y="270" width="350" height="120" rx="14" fill="#eff2f6" stroke="#b8cbd1"/>
+<text x="710.0" y="317" font-size="25" text-anchor="middle">集体决定与执行</text>
+<text x="710.0" y="356" font-size="21" text-anchor="middle">依程序决定、明确责任与资源</text>
+<rect x="75" y="270" width="350" height="120" rx="14" fill="#f3eff4" stroke="#b8cbd1"/>
+<text x="250.0" y="317" font-size="25" text-anchor="middle">评估、回应与调整</text>
+<text x="250.0" y="356" font-size="21" text-anchor="middle">检查结果、说明理由、依法纠错</text>
+<path d="M425 110 H535" fill="none" stroke="#6c8994" stroke-width="2.6" marker-end="url(#arrow)"/>
+<path d="M710 170 V270" fill="none" stroke="#6c8994" stroke-width="2.6" marker-end="url(#arrow)"/>
+<path d="M535 330 H425" fill="none" stroke="#6c8994" stroke-width="2.6" marker-end="url(#arrow)"/>
+<path d="M250 270 V170" fill="none" stroke="#6c8994" stroke-width="2.6" marker-end="url(#arrow)"/>
+<text x="480" y="224" font-size="23" text-anchor="middle">参与、证据与权利保障贯穿各环节</text>
+</g></svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620" role="img" aria-labelledby="title desc">
+<title id="title">波浪侵蚀与沿岸沉积的并存</title><desc id="desc">俯视图左侧为波浪冲击的岩岸，右侧为受斜向来浪和沿岸漂沙影响的砂质海岸与沙嘴。</desc>
+<defs>
+<marker id="arrow-blue" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#4d8cab"/></marker>
+<marker id="arrow-rust" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#c46f58"/></marker>
+<marker id="arrow-ink" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#4b6570"/></marker>
+<marker id="arrow-green" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#6a967c"/></marker>
+<linearGradient id="magma" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f1c386"/><stop offset="1" stop-color="#d8745c"/></linearGradient>
+<linearGradient id="sea" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#e7f3f5"/><stop offset="1" stop-color="#c8e3e9"/></linearGradient>
+<pattern id="granite" width="45" height="45" patternUnits="userSpaceOnUse"><rect width="45" height="45" fill="#dbd1c5"/><path d="M6 13l9-5 6 8-8 8-8-5zm24 11 7-5 5 7-8 7-7-4z" fill="#a5968a"/><path d="M22 35l4-7 6 4-3 7zM2 36l8-4 4 7-9 3z" fill="#6f7881"/><circle cx="36" cy="8" r="3" fill="#eee8df"/></pattern>
+<pattern id="grains" width="52" height="40" patternUnits="userSpaceOnUse"><rect width="52" height="40" fill="#e6d5ba"/><ellipse cx="10" cy="14" rx="7" ry="4" fill="#b98e69"/><ellipse cx="38" cy="26" rx="9" ry="5" fill="#c8a579"/><circle cx="27" cy="9" r="4" fill="#a87e64"/></pattern>
+</defs><rect width="1100" height="620" fill="#fff"/>
+<g font-family="Songti SC,STSong,SimSun,Noto Serif CJK SC,serif" fill="#283e47" stroke-linecap="round" stroke-linejoin="round">
+<path d="M0 0H1100V620H0Z" fill="url(#sea)"/>
+<path d="M0 0H1100V192Q1004 192 951 219Q899 238 835 236Q729 232 673 197Q563 151 464 204Q383 246 298 202L246 241Q168 264 109 205L0 242Z" fill="#d8c7a8" stroke="#846f62" stroke-width="3"/>
+<path d="M0 239Q85 182 112 205Q154 257 209 254Q227 223 246 241Q273 267 286 222Q319 183 344 231Q365 259 387 233Q395 209 416 210" fill="none" stroke="#8d7768" stroke-width="16"/>
+<path d="M454 208Q563 151 673 197Q729 232 835 236Q898 238 951 219Q1004 192 1100 192" fill="none" stroke="#ebd2a5" stroke-width="28"/>
+<path d="M832 237Q883 264 921 310Q947 342 989 348Q1030 351 1067 329" fill="none" stroke="#e7c38e" stroke-width="43"/>
+<path d="M835 237Q884 265 922 311Q952 348 991 348" fill="none" stroke="#b79467" stroke-width="2"/>
+<path d="M30 300Q89 270 145 300M55 345Q117 313 178 344M105 389Q168 356 230 386" fill="none" stroke="#fff" stroke-width="9" opacity=".9"/>
+<path d="M450 349Q505 316 560 348M485 393Q543 356 600 389M531 439Q585 405 640 435" fill="none" stroke="#fff" stroke-width="8" opacity=".86"/>
+<path d="M525 332Q564 286 616 260" fill="none" stroke="#4d8cab" stroke-width="5" marker-end="url(#arrow-blue)"/>
+<path d="M566 245Q665 215 772 228" fill="none" stroke="#c46f58" stroke-width="5" marker-end="url(#arrow-rust)"/>
+<text x="31" y="99" font-size="26" fill="#445c65">岩质海岸</text><path d="M133 107L183 221" fill="none" stroke="#667c80" stroke-width="1.7"/>
+<text x="260" y="85" font-size="24">海蚀崖与裂隙</text><path d="M356 92L308 212" fill="none" stroke="#667c80" stroke-width="1.7"/>
+<text x="558" y="109" font-size="26" fill="#445c65">砂质海岸</text><path d="M624 118L624 181" fill="none" stroke="#667c80" stroke-width="1.7"/>
+<text x="739" y="165" font-size="24">沿岸漂沙</text>
+<path d="M986 342L1009 437H1068" fill="none" stroke="#667c80" stroke-width="1.7"/><text x="925" y="468" font-size="24">沙嘴</text>
+<text x="52" y="556" font-size="23" fill="#597481">斜向波浪</text><text x="430" y="555" font-size="22" fill="#597481">侵蚀与堆积取决于波浪和泥沙收支</text>
+</g>
+</svg>

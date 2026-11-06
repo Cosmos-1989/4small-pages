@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">染色质状态与转录可及性</title><desc id="desc">组蛋白修饰和DNA甲基化与染色质局部状态相关，状态可改变但效应依赖情境。</desc>
+<defs>
+ <marker id="arrow" markerWidth="10" markerHeight="10" refX="8.6" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#3f7182"/></marker>
+ <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8.6" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#a5647b"/></marker>
+ <marker id="arrow3" markerWidth="10" markerHeight="10" refX="8.6" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#b68642"/></marker>
+ <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#fbfcf9"/><stop offset="1" stop-color="#f5f8f5"/></linearGradient>
+ <linearGradient id="nucleus" x2="0" y2="1"><stop stop-color="#eaf1fb"/><stop offset="1" stop-color="#f5f8fe"/></linearGradient>
+</defs>
+<style>
+ text{font-family:'Songti SC',STSong,SimSun,'Noto Serif CJK SC',serif;fill:#243d47}
+ .h{font-size:24px;font-weight:700}.lab{font-size:20px;font-weight:600}.mid{font-size:18px}.sm{font-size:16px;fill:#5d7077}.tiny{font-size:14px;fill:#65777e}
+ .dna{fill:none;stroke:#4d7184;stroke-width:9;stroke-linecap:round}.dna2{fill:none;stroke:#98b5bc;stroke-width:4;stroke-linecap:round}
+ .flow{fill:none;stroke:#3f7182;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}
+ .flow2{fill:none;stroke:#a5647b;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow2)}
+ .flow3{fill:none;stroke:#b68642;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow3)}
+ .guide{fill:none;stroke:#9fb4ba;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+ .card{fill:#fff;stroke:#d9e4e0;stroke-width:1.8}
+</style>
+<rect width="1000" height="560" fill="url(#paper)"/>
+
+<text x="62" y="54" class="h">局部染色质状态影响调控蛋白接近 DNA 的机会</text>
+<rect x="54" y="88" width="892" height="196" rx="22" class="card"/>
+<rect x="54" y="306" width="892" height="193" rx="22" class="card"/>
+<text x="81" y="125" class="lab">较易接近</text><text x="81" y="149" class="sm">核小体间距较大</text>
+<path class="dna" d="M179 218C285 203 321 232 415 216S561 205 658 216S803 214 896 219"/>
+<path class="dna2" d="M179 229C285 214 321 243 415 227S561 216 658 227S803 225 896 230"/>
+<g fill="#e4b9c8" stroke="#a97489" stroke-width="2"><circle cx="263" cy="219" r="31"/><circle cx="470" cy="219" r="31"/><circle cx="694" cy="220" r="31"/></g>
+<g fill="#d2a957"><circle cx="254" cy="173" r="6"/><circle cx="280" cy="171" r="6"/><circle cx="458" cy="172" r="6"/><circle cx="485" cy="174" r="6"/></g>
+<text x="824" y="170" class="sm">例：组蛋白乙酰化</text>
+<path class="flow" d="M568 166V188"/><text x="603" y="149" class="sm">调控蛋白可结合</text>
+<text x="81" y="343" class="lab">较难接近</text><text x="81" y="367" class="sm">核小体更密集</text>
+<path class="dna" d="M179 435C285 429 321 443 415 436S561 430 658 436S803 433 896 438"/>
+<path class="dna2" d="M179 446C285 440 321 454 415 447S561 441 658 447S803 444 896 449"/>
+<g fill="#ccafbc" stroke="#987785" stroke-width="2"><circle cx="246" cy="439" r="33"/><circle cx="317" cy="439" r="33"/><circle cx="388" cy="439" r="33"/><circle cx="459" cy="439" r="33"/><circle cx="530" cy="439" r="33"/><circle cx="601" cy="439" r="33"/><circle cx="672" cy="439" r="33"/></g>
+<g fill="#bc8298"><circle cx="759" cy="442" r="6"/><circle cx="780" cy="443" r="6"/><circle cx="801" cy="444" r="6"/><circle cx="822" cy="445" r="6"/></g>
+<text x="805" y="400" class="sm">例：DNA 甲基化</text>
+<path class="flow2" d="M917 315C965 252 963 169 917 111"/><path class="flow2" d="M93 290v18"/>
+<text x="492" y="532" text-anchor="middle" class="sm">修饰与重塑受酶调节；甲基化或乙酰化的效应仍须看位点与细胞环境。</text>
+
+</svg>

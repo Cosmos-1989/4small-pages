@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620" role="img" aria-labelledby="title desc">
+<title id="title">矿物、晶体与岩石的层级关系</title><desc id="desc">左侧表示石英、长石和云母等不同矿物，右侧表示这些矿物作为颗粒共同组成岩石。</desc>
+<defs>
+<marker id="arrow-blue" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#4d8cab"/></marker>
+<marker id="arrow-rust" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#c46f58"/></marker>
+<marker id="arrow-ink" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#4b6570"/></marker>
+<marker id="arrow-green" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#6a967c"/></marker>
+<linearGradient id="magma" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f1c386"/><stop offset="1" stop-color="#d8745c"/></linearGradient>
+<linearGradient id="sea" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#e7f3f5"/><stop offset="1" stop-color="#c8e3e9"/></linearGradient>
+<pattern id="granite" width="45" height="45" patternUnits="userSpaceOnUse"><rect width="45" height="45" fill="#dbd1c5"/><path d="M6 13l9-5 6 8-8 8-8-5zm24 11 7-5 5 7-8 7-7-4z" fill="#a5968a"/><path d="M22 35l4-7 6 4-3 7zM2 36l8-4 4 7-9 3z" fill="#6f7881"/><circle cx="36" cy="8" r="3" fill="#eee8df"/></pattern>
+<pattern id="grains" width="52" height="40" patternUnits="userSpaceOnUse"><rect width="52" height="40" fill="#e6d5ba"/><ellipse cx="10" cy="14" rx="7" ry="4" fill="#b98e69"/><ellipse cx="38" cy="26" rx="9" ry="5" fill="#c8a579"/><circle cx="27" cy="9" r="4" fill="#a87e64"/></pattern>
+</defs><rect width="1100" height="620" fill="#fff"/>
+<g font-family="Songti SC,STSong,SimSun,Noto Serif CJK SC,serif" fill="#283e47" stroke-linecap="round" stroke-linejoin="round">
+<text x="70" y="65" font-size="26" fill="#668a95">不同矿物</text>
+<g transform="translate(90 145)"><path d="M72 0l65 22 20 100-75 88-75-87L20 22Z" fill="#e8eeee" stroke="#5f7e89" stroke-width="3"/><path d="M72 0L82 210M20 22l62 38 55-38M7 123l75-63 75 62" fill="none" stroke="#9fbac1" stroke-width="2"/><text x="82" y="256" font-size="25" text-anchor="middle">石英</text></g>
+<g transform="translate(280 162)"><path d="M6 52l69-50 102 36-13 123-97 41-61-77Z" fill="#e9c9b3" stroke="#986d61" stroke-width="3"/><path d="M75 2l-8 200M6 52l160 15M6 125l151-21" fill="none" stroke="#cc9e86" stroke-width="2"/><text x="88" y="239" font-size="25" text-anchor="middle">长石</text></g>
+<g transform="translate(466 174)"><path d="M0 46l107-44 71 41-107 48Z" fill="#89939b" stroke="#526773" stroke-width="3"/><path d="M0 72l107-44 71 41-107 48Zm0 26l107-44 71 41-107 48Z" fill="#aab4b5" stroke="#526773" stroke-width="2.5"/><text x="88" y="224" font-size="25" text-anchor="middle">云母</text></g>
+<path d="M626 268c62-12 96-12 133 0" fill="none" stroke="#4b6570" stroke-width="4" marker-end="url(#arrow-ink)"/>
+<path d="M774 164l165-37 113 72-7 188-185 61-110-128Z" fill="url(#granite)" stroke="#65747a" stroke-width="4"/>
+<path d="M805 169l18-3M975 140l21 16M794 390l25 24" fill="none" stroke="#fff" stroke-width="3" opacity=".75"/>
+<text x="910" y="494" font-size="26" text-anchor="middle">花岗岩：多种矿物集合</text>
+<path d="M135 512h487" stroke="#c8d2d1" stroke-width="2"/>
+<text x="87" y="554" font-size="23" fill="#536e77">鉴定线索：硬度 · 解理 · 条痕 · 晶形</text>
+</g>
+</svg>

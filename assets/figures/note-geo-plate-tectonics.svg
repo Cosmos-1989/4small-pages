@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620" role="img" aria-labelledby="title desc">
+<title id="title">扩张、俯冲与转换边界</title><desc id="desc">三种不同板块边界示意：左侧扩张形成新洋壳，中间海洋板块俯冲到大陆板块下方，右侧两板块水平错动。</desc>
+<defs>
+<marker id="arrow-blue" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#4d8cab"/></marker>
+<marker id="arrow-rust" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#c46f58"/></marker>
+<marker id="arrow-ink" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#4b6570"/></marker>
+<marker id="arrow-green" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L11 6 1 11Z" fill="#6a967c"/></marker>
+<linearGradient id="magma" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f1c386"/><stop offset="1" stop-color="#d8745c"/></linearGradient>
+<linearGradient id="sea" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#e7f3f5"/><stop offset="1" stop-color="#c8e3e9"/></linearGradient>
+<pattern id="granite" width="45" height="45" patternUnits="userSpaceOnUse"><rect width="45" height="45" fill="#dbd1c5"/><path d="M6 13l9-5 6 8-8 8-8-5zm24 11 7-5 5 7-8 7-7-4z" fill="#a5968a"/><path d="M22 35l4-7 6 4-3 7zM2 36l8-4 4 7-9 3z" fill="#6f7881"/><circle cx="36" cy="8" r="3" fill="#eee8df"/></pattern>
+<pattern id="grains" width="52" height="40" patternUnits="userSpaceOnUse"><rect width="52" height="40" fill="#e6d5ba"/><ellipse cx="10" cy="14" rx="7" ry="4" fill="#b98e69"/><ellipse cx="38" cy="26" rx="9" ry="5" fill="#c8a579"/><circle cx="27" cy="9" r="4" fill="#a87e64"/></pattern>
+</defs><rect width="1100" height="620" fill="#fff"/>
+<g font-family="Songti SC,STSong,SimSun,Noto Serif CJK SC,serif" fill="#283e47" stroke-linecap="round" stroke-linejoin="round">
+<text x="176" y="63" font-size="26" text-anchor="middle" fill="#668a95">扩张边界</text>
+<text x="541" y="63" font-size="26" text-anchor="middle" fill="#668a95">汇聚边界</text>
+<text x="910" y="63" font-size="26" text-anchor="middle" fill="#668a95">转换边界（俯视）</text>
+<path d="M34 195Q115 206 154 164L177 188Q222 203 335 193V494H34Z" fill="url(#sea)"/>
+<path d="M34 256Q119 260 155 219L175 246Q231 261 335 254V395H34Z" fill="#9ba7a7" stroke="#61777c" stroke-width="2"/>
+<path d="M35 258Q119 261 155 220L175 246Q231 261 334 255" fill="none" stroke="#b8c2bf" stroke-width="12"/>
+<path d="M34 395H335V542H34Z" fill="#e0b890"/>
+<path d="M166 408Q174 329 172 249" fill="none" stroke="#d7805e" stroke-width="19"/>
+<path d="M149 313Q110 307 78 300M193 313Q240 305 272 296" fill="none" stroke="#4b6570" stroke-width="4" marker-end="url(#arrow-ink)"/>
+<text x="79" y="345" font-size="23">岩石圈</text><text x="86" y="455" font-size="22">软流圈</text><text x="93" y="153" font-size="22">洋中脊</text><text x="226" y="145" font-size="21">新洋壳</text><path d="M257 154L234 253" fill="none" stroke="#688087" stroke-width="1.5"/>
+<path d="M384 198Q493 207 537 236L555 244Q609 176 714 182V495H384Z" fill="url(#sea)"/>
+<path d="M384 259Q490 259 530 273Q565 291 609 402L646 500H384Z" fill="#8e9da2" stroke="#637782" stroke-width="2.5"/>
+<path d="M556 241Q617 215 705 211L715 478H640Q613 328 556 241Z" fill="#c5ae94" stroke="#7d796b" stroke-width="2.5"/>
+<path d="M384 496H715V543H384Z" fill="#e0b890"/>
+<path d="M568 266Q637 275 683 312" fill="none" stroke="#4b6570" stroke-width="4" marker-end="url(#arrow-ink)"/>
+<path d="M473 244Q506 246 521 257" fill="none" stroke="#4b6570" stroke-width="4" marker-end="url(#arrow-ink)"/>
+<path d="M637 383Q648 333 663 285" fill="none" stroke="#c46f58" stroke-width="6" marker-end="url(#arrow-rust)"/>
+<path d="M644 212l25-46 17 46Z" fill="#a78477" stroke="#8a7065" stroke-width="2"/>
+<text x="391" y="154" font-size="22">海沟</text><path d="M441 160L546 245" fill="none" stroke="#6c8081" stroke-width="1.5"/>
+<text x="404" y="360" font-size="21">俯冲板片</text><text x="554" y="534" font-size="21">软流圈</text>
+<path d="M754 182H1061V500H754Z" fill="#e5d8c0" stroke="#94a29e" stroke-width="2.5"/>
+<path d="M754 185H904L885 258 923 329 898 397 914 498H754Z" fill="#c8dfdc" opacity=".85"/>
+<path d="M902 182L883 258 921 329 896 397 911 500" fill="none" stroke="#586e73" stroke-width="5"/>
+<path d="M852 434V349" fill="none" stroke="#4b6570" stroke-width="5" marker-end="url(#arrow-ink)"/>
+<path d="M969 248V338" fill="none" stroke="#4b6570" stroke-width="5" marker-end="url(#arrow-ink)"/>
+<text x="779" y="540" font-size="21">两侧沿断裂水平错动</text>
+<path d="M352 94V570M734 94V570" stroke="#e1e3dd" stroke-width="2"/>
+<text x="91" y="599" font-size="21" fill="#627a7e">箭头表示相对运动；三幅图不是连续的同一地点</text>
+</g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">microRNA对靶mRNA的转录后调控</title><desc id="desc">前体microRNA经加工并进入Argonaute复合物后与靶mRNA配对，引起翻译或稳定性变化。</desc>
+<defs>
+ <marker id="arrow" markerWidth="10" markerHeight="10" refX="8.6" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#3f7182"/></marker>
+ <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8.6" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#a5647b"/></marker>
+ <marker id="arrow3" markerWidth="10" markerHeight="10" refX="8.6" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#b68642"/></marker>
+ <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#fbfcf9"/><stop offset="1" stop-color="#f5f8f5"/></linearGradient>
+ <linearGradient id="nucleus" x2="0" y2="1"><stop stop-color="#eaf1fb"/><stop offset="1" stop-color="#f5f8fe"/></linearGradient>
+</defs>
+<style>
+ text{font-family:'Songti SC',STSong,SimSun,'Noto Serif CJK SC',serif;fill:#243d47}
+ .h{font-size:24px;font-weight:700}.lab{font-size:20px;font-weight:600}.mid{font-size:18px}.sm{font-size:16px;fill:#5d7077}.tiny{font-size:14px;fill:#65777e}
+ .dna{fill:none;stroke:#4d7184;stroke-width:9;stroke-linecap:round}.dna2{fill:none;stroke:#98b5bc;stroke-width:4;stroke-linecap:round}
+ .flow{fill:none;stroke:#3f7182;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}
+ .flow2{fill:none;stroke:#a5647b;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow2)}
+ .flow3{fill:none;stroke:#b68642;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow3)}
+ .guide{fill:none;stroke:#9fb4ba;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+ .card{fill:#fff;stroke:#d9e4e0;stroke-width:1.8}
+</style>
+<rect width="1000" height="560" fill="url(#paper)"/>
+
+<text x="62" y="54" class="h">microRNA：小 RNA 把序列信息带到靶 mRNA</text>
+<rect x="57" y="100" width="205" height="330" rx="22" class="card"/>
+<rect x="283" y="100" width="195" height="330" rx="22" class="card"/>
+<rect x="499" y="100" width="429" height="330" rx="22" class="card"/>
+<text x="159" y="143" class="lab" text-anchor="middle">前体形成</text>
+<path d="M139 333V212Q139 176 160 179Q181 182 181 211V333" fill="none" stroke="#ad738b" stroke-width="5" stroke-linecap="round"/>
+<path d="M148 205h24m-24 15h24m-24 15h24m-24 15h24m-24 15h24m-24 15h24" stroke="#cf9fb2" stroke-width="2.5"/>
+<path d="M129 339l10-10m42 0l10 10" stroke="#ad738b" stroke-width="4"/>
+<text x="160" y="376" text-anchor="middle" class="sm">发夹型前体</text>
+<path class="flow" d="M264 260H305"/>
+<text x="382" y="143" class="lab" text-anchor="middle">加工与装载</text>
+<path d="M338 210q27-48 58 0q-28 37-58 0Z" fill="#e7bfd0" stroke="#b37890" stroke-width="2"/>
+<path d="M340 243q28 16 58 0" fill="none" stroke="#a76680" stroke-width="5"/>
+<path d="M341 258q28 16 58 0" fill="none" stroke="#b9a8b8" stroke-width="4"/>
+<path class="flow" d="M383 284V333"/>
+<circle cx="383" cy="363" r="38" fill="#d6e5e7" stroke="#7fa4ae" stroke-width="2"/>
+<text x="383" y="368" class="sm" text-anchor="middle">Ago</text>
+<text x="382" y="409" text-anchor="middle" class="sm">引导链保留</text>
+<path class="flow" d="M464 260H516"/>
+<text x="714" y="143" text-anchor="middle" class="lab">与靶 mRNA 配对</text>
+<path d="M544 266q75-19 151 0t157 0" fill="none" stroke="#527f91" stroke-width="6" stroke-linecap="round"/>
+<path d="M651 242q35 13 69 0" fill="none" stroke="#ad738b" stroke-width="5" stroke-linecap="round"/>
+<path d="M657 247l7 13m5-16l7 13m5-15l7 13m5-13l7 13m5-13l7 13" stroke="#8b8998" stroke-width="1.5"/>
+<circle cx="599" cy="216" r="38" fill="#d6e5e7" stroke="#7fa4ae" stroke-width="2"/>
+<text x="599" y="221" text-anchor="middle" class="sm">Ago</text>
+<path class="guide" d="M615 241L652 251"/>
+<path class="flow2" d="M717 283l-89 80"/><path class="flow2" d="M744 283l105 80"/>
+<rect x="538" y="360" width="171" height="47" rx="13" fill="#f7e7e9" stroke="#e1b7c1"/>
+<rect x="745" y="360" width="160" height="47" rx="13" fill="#f7e7e9" stroke="#e1b7c1"/>
+<text x="624" y="390" text-anchor="middle" class="sm">翻译受到抑制</text>
+<text x="825" y="390" text-anchor="middle" class="sm">mRNA 稳定性降低</text>
+<text x="499" y="483" class="sm" text-anchor="middle">小核 RNA、核糖体 RNA、转运 RNA 等也属于非编码 RNA，但机制不同。</text>
+<text x="499" y="519" class="sm" text-anchor="middle">不同靶标的配对和结果可变；“被转录”不能单独证明功能。</text>
+
+</svg>

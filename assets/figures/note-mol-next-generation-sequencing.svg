@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">并行读段的产生与参考序列比对</title><desc id="desc">多片段 DNA 文库在表面形成独立簇，经循环合成和成像产生读段，再比对或组装；示意图不代表所有测序平台。</desc>
+<defs>
+ <marker id="arr-b" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#4b7fa4"/></marker>
+ <marker id="arr-t" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#3b877a"/></marker>
+ <marker id="arr-p" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#aa6484"/></marker>
+ <marker id="arr-g" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#c38d47"/></marker>
+</defs>
+<style>text{font-family:'Songti SC',STSong,SimSun,'Noto Serif CJK SC',serif;fill:#263847}.major{font-size:25px;font-weight:600}.label{font-size:21px;font-weight:600}.minor{font-size:18px;fill:#516672}.small{font-size:16px;fill:#627681}.blue{fill:none;stroke:#4b7fa4;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-b)}.teal{fill:none;stroke:#3b877a;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-t)}.pink{fill:none;stroke:#aa6484;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-p)}.gold{fill:none;stroke:#c38d47;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr-g)}.lead{fill:none;stroke:#708692;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}</style>
+<rect width="1000" height="560" fill="#ffffff"/>
+<text x="54" y="72" class="major">片段与接头</text><text x="370" y="72" class="major">表面簇与循环成像</text><text x="762" y="72" class="major">读段</text>
+<rect x="51" y="103" width="241" height="231" rx="17" fill="#f5f9fb" stroke="#d5e3e9"/>
+<g stroke="#4b7fa4" stroke-width="9" stroke-linecap="round"><path d="M90 164h151M90 217h123M90 270h157"/></g>
+<g fill="#b16a86"><rect x="76" y="156" width="15" height="16" rx="3"/><rect x="240" y="156" width="15" height="16" rx="3"/><rect x="76" y="209" width="15" height="16" rx="3"/><rect x="211" y="209" width="15" height="16" rx="3"/><rect x="76" y="262" width="15" height="16" rx="3"/><rect x="247" y="262" width="15" height="16" rx="3"/></g>
+<text x="171" y="315" class="minor" text-anchor="middle">许多独立 DNA 片段</text>
+<path class="teal" d="M300 219H353"/>
+<rect x="371" y="103" width="339" height="231" rx="17" fill="#f8faf7" stroke="#dce6dd"/>
+<g fill="#e6ecdd" stroke="#8da795" stroke-width="1.5"><circle cx="429" cy="163" r="29"/><circle cx="518" cy="163" r="29"/><circle cx="607" cy="163" r="29"/><circle cx="429" cy="256" r="29"/><circle cx="518" cy="256" r="29"/><circle cx="607" cy="256" r="29"/></g>
+<g fill="#4b7fa4"><rect x="419" y="153" width="20" height="20" rx="4"/><rect x="508" y="153" width="20" height="20" rx="4"/><rect x="597" y="153" width="20" height="20" rx="4"/></g>
+<g fill="#b16a86"><rect x="419" y="246" width="20" height="20" rx="4"/><rect x="508" y="246" width="20" height="20" rx="4"/><rect x="597" y="246" width="20" height="20" rx="4"/></g>
+<text x="540" y="314" class="minor" text-anchor="middle">各簇逐轮识别新加入的碱基</text>
+<path class="teal" d="M717 219H760"/>
+<rect x="772" y="103" width="178" height="231" rx="17" fill="#faf6fa" stroke="#e6dce4"/>
+<g stroke="#4b7fa4" stroke-width="7" stroke-linecap="round"><path d="M798 158h119M798 204h95M798 250h130"/></g>
+<text x="862" y="315" class="minor" text-anchor="middle">分别得到序列</text>
+<path class="teal" d="M852 340Q851 383 758 391"/>
+<text x="503" y="390" class="label" text-anchor="middle">比对到参考序列，或进行组装</text>
+<path d="M130 461H866" stroke="#788f9b" stroke-width="8" stroke-linecap="round"/>
+<g stroke="#4b7fa4" stroke-width="12" stroke-linecap="round"><path d="M154 434H347M255 488H451M495 434H667M641 488H842"/></g>
+<rect x="455" y="449" width="40" height="22" fill="#f4e8ee" stroke="#bc879d" stroke-dasharray="5 4"/>
+<text x="498" y="535" class="small" text-anchor="middle">读段空缺、重复序列和参考偏差均会影响解释</text>
+</svg>
